@@ -1,0 +1,77 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "request",
+  "type": "object",
+  "properties": {
+    "assetId": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9_]*$"
+    },
+    "subject": {
+      "type": "string",
+      "minLength": 1
+    },
+    "state": {
+      "type": "string",
+      "minLength": 1
+    },
+    "category": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9_]*$"
+    },
+    "targetWidth": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "targetHeight": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "alpha": {
+      "type": "boolean"
+    },
+    "anchor": {
+      "type": "string",
+      "minLength": 1
+    },
+    "referenceIds": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z][a-z0-9_]*$"
+      }
+    },
+    "outputCount": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "styleVersion": {
+      "type": "string",
+      "minLength": 1
+    },
+    "phase": {
+      "type": "string",
+      "enum": [
+        "P0",
+        "P1",
+        "P2",
+        "P3"
+      ]
+    }
+  },
+  "required": [
+    "assetId",
+    "subject",
+    "state",
+    "category",
+    "targetWidth",
+    "targetHeight",
+    "alpha",
+    "anchor",
+    "referenceIds",
+    "outputCount",
+    "styleVersion",
+    "phase"
+  ],
+  "additionalProperties": false
+}

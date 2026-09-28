@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "zones",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "string",
+        "pattern": "^[a-z][a-z0-9_]*$"
+      },
+      "name": {
+        "type": "string",
+        "minLength": 1
+      },
+      "phase": {
+        "type": "string",
+        "enum": [
+          "P0",
+          "P1",
+          "P2",
+          "P3"
+        ]
+      },
+      "unlockFlag": {
+        "oneOf": [
+          {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9_]*$"
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "status": {
+        "enum": [
+          "defined",
+          "planned"
+        ]
+      }
+    },
+    "required": [
+      "id",
+      "name",
+      "phase",
+      "unlockFlag",
+      "status"
+    ],
+    "additionalProperties": false
+  }
+}

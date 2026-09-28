@@ -1,0 +1,26 @@
+{
+  "kitVersion": "1.0",
+  "contentVersion": "0.1.0",
+  "saveSchemaVersion": 2,
+  "offlineCapSeconds": 28800,
+  "dayLengthSeconds": 3600,
+  "autosaveSeconds": 15,
+  "initialCoins": 40,
+  "initialInventory": {
+    "seed_daisy": 4,
+    "seed_tulip": 2
+  },
+  "initialPlotCount": 4,
+  "maxPlotCount": 8,
+  "friendshipThresholds": [
+    0,
+    25,
+    50,
+    80
+  ],
+  "relationshipCooldownSeconds": 21600,
+  "maxImportBytes": 2097152,
+  "maxReceipts": 256,
+  "maxBackups": 3,
+  "rescueSeeds": 2
+}

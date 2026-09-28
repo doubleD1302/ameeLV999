@@ -1,0 +1,172 @@
+[
+  {
+    "id": "q_arrival",
+    "title": "Dọn một góc nhỏ",
+    "phase": "P0",
+    "prerequisites": [],
+    "condition": {
+      "kind": "clear_count",
+      "target": null,
+      "count": 3,
+      "retroactive": true
+    },
+    "rewards": {
+      "coins": 10,
+      "items": {
+        "seed_daisy": 2
+      },
+      "flags": []
+    }
+  },
+  {
+    "id": "q_first_seed",
+    "title": "Hạt đầu tiên",
+    "phase": "P0",
+    "prerequisites": [
+      "q_arrival"
+    ],
+    "condition": {
+      "kind": "planted_count",
+      "target": null,
+      "count": 1,
+      "retroactive": true
+    },
+    "rewards": {
+      "coins": 10,
+      "items": {
+        "wood": 4
+      },
+      "flags": []
+    }
+  },
+  {
+    "id": "q_first_harvest",
+    "title": "Bông hoa đầu tiên",
+    "phase": "P0",
+    "prerequisites": [
+      "q_first_seed"
+    ],
+    "condition": {
+      "kind": "harvested_count",
+      "target": null,
+      "count": 1,
+      "retroactive": true
+    },
+    "rewards": {
+      "coins": 15,
+      "items": {
+        "stone": 2
+      },
+      "flags": [
+        "journal_01"
+      ]
+    }
+  },
+  {
+    "id": "q_first_sale",
+    "title": "Một khởi đầu mới",
+    "phase": "P0",
+    "prerequisites": [
+      "q_first_harvest"
+    ],
+    "condition": {
+      "kind": "sold_count",
+      "target": null,
+      "count": 1,
+      "retroactive": true
+    },
+    "rewards": {
+      "coins": 15,
+      "items": {},
+      "flags": []
+    }
+  },
+  {
+    "id": "q_window",
+    "title": "Ánh sáng trở lại",
+    "phase": "P0",
+    "prerequisites": [
+      "q_first_sale"
+    ],
+    "condition": {
+      "kind": "upgrade",
+      "target": "repair_window",
+      "count": 1,
+      "retroactive": true
+    },
+    "rewards": {
+      "coins": 20,
+      "items": {},
+      "flags": [
+        "chapter_01_done"
+      ]
+    }
+  },
+  {
+    "id": "q_friend",
+    "title": "Một lời chào",
+    "phase": "P1",
+    "prerequisites": [
+      "q_window"
+    ],
+    "condition": {
+      "kind": "talk_count",
+      "target": "lily",
+      "count": 1,
+      "retroactive": true
+    },
+    "rewards": {
+      "coins": 15,
+      "items": {},
+      "flags": [
+        "journal_02"
+      ]
+    }
+  },
+  {
+    "id": "q_greenhouse",
+    "title": "Dưới mái kính cũ",
+    "phase": "P1",
+    "prerequisites": [
+      "q_friend"
+    ],
+    "condition": {
+      "kind": "upgrade",
+      "target": "restore_greenhouse",
+      "count": 1,
+      "retroactive": true
+    },
+    "rewards": {
+      "coins": 40,
+      "items": {
+        "seed_rose": 1
+      },
+      "flags": [
+        "chapter_02_done"
+      ]
+    }
+  },
+  {
+    "id": "q_home",
+    "title": "Một vị khách ở lại",
+    "phase": "P1",
+    "prerequisites": [
+      "q_greenhouse"
+    ],
+    "condition": {
+      "kind": "pet_adopted",
+      "target": "momo",
+      "count": 1,
+      "retroactive": true
+    },
+    "rewards": {
+      "coins": 20,
+      "items": {
+        "decor_flowerpot": 1
+      },
+      "flags": [
+        "mvp_complete"
+      ]
+    }
+  }
+]

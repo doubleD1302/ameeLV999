@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "save_v1",
+  "type": "object",
+  "properties": {
+    "version": {
+      "const": 1
+    },
+    "lastSeenMs": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "elapsedMs": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "coins": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "inventory": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "integer",
+        "minimum": 0
+      },
+      "propertyNames": {
+        "pattern": "^[a-z][a-z0-9_]*$"
+      }
+    }
+  },
+  "required": [
+    "version",
+    "lastSeenMs",
+    "elapsedMs",
+    "coins",
+    "inventory"
+  ],
+  "additionalProperties": false
+}

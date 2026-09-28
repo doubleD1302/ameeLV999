@@ -1,0 +1,42 @@
+[
+  {
+    "id": "daisy",
+    "label": "Cúc trắng",
+    "assetId": "icon_flower_daisy"
+  },
+  {
+    "id": "tulip",
+    "label": "Tulip hồng",
+    "assetId": "icon_flower_tulip"
+  },
+  {
+    "id": "rose",
+    "label": "Hồng vườn",
+    "assetId": "icon_flower_rose"
+  },
+  {
+    "id": "lily",
+    "label": "Bách hợp",
+    "assetId": "icon_flower_lily"
+  },
+  {
+    "id": "lavender",
+    "label": "Oải hương",
+    "assetId": "icon_flower_lavender"
+  },
+  {
+    "id": "marigold",
+    "label": "Cúc vạn thọ",
+    "assetId": "icon_flower_marigold"
+  },
+  {
+    "id": "leaf",
+    "label": "Chiếc lá",
+    "assetId": "symbol_leaf"
+  },
+  {
+    "id": "sun",
+    "label": "Mặt trời",
+    "assetId": "symbol_sun"
+  }
+]

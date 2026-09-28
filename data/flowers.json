@@ -1,0 +1,68 @@
+[
+  {
+    "id": "daisy",
+    "name": "Cúc trắng",
+    "phase": "P0",
+    "seedItemId": "seed_daisy",
+    "harvestItemId": "flower_daisy",
+    "durationSeconds": 120,
+    "yield": 1,
+    "unlockFlag": null,
+    "assetPrefix": "flower_daisy"
+  },
+  {
+    "id": "tulip",
+    "name": "Tulip hồng",
+    "phase": "P0",
+    "seedItemId": "seed_tulip",
+    "harvestItemId": "flower_tulip",
+    "durationSeconds": 600,
+    "yield": 1,
+    "unlockFlag": null,
+    "assetPrefix": "flower_tulip"
+  },
+  {
+    "id": "marigold",
+    "name": "Cúc vạn thọ",
+    "phase": "P0",
+    "seedItemId": "seed_marigold",
+    "harvestItemId": "flower_marigold",
+    "durationSeconds": 1800,
+    "yield": 1,
+    "unlockFlag": null,
+    "assetPrefix": "flower_marigold"
+  },
+  {
+    "id": "lavender",
+    "name": "Oải hương",
+    "phase": "P1",
+    "seedItemId": "seed_lavender",
+    "harvestItemId": "flower_lavender",
+    "durationSeconds": 3600,
+    "yield": 1,
+    "unlockFlag": "fence_repaired",
+    "assetPrefix": "flower_lavender"
+  },
+  {
+    "id": "rose",
+    "name": "Hồng vườn",
+    "phase": "P1",
+    "seedItemId": "seed_rose",
+    "harvestItemId": "flower_rose",
+    "durationSeconds": 14400,
+    "yield": 1,
+    "unlockFlag": "greenhouse_exterior",
+    "assetPrefix": "flower_rose"
+  },
+  {
+    "id": "lily",
+    "name": "Bách hợp",
+    "phase": "P1",
+    "seedItemId": "seed_lily",
+    "harvestItemId": "flower_lily",
+    "durationSeconds": 28800,
+    "yield": 1,
+    "unlockFlag": "greenhouse_exterior",
+    "assetPrefix": "flower_lily"
+  }
+]

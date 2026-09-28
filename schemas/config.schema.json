@@ -1,0 +1,98 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "config",
+  "type": "object",
+  "properties": {
+    "kitVersion": {
+      "type": "string",
+      "minLength": 1
+    },
+    "contentVersion": {
+      "type": "string",
+      "minLength": 1
+    },
+    "saveSchemaVersion": {
+      "const": 2
+    },
+    "offlineCapSeconds": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "dayLengthSeconds": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "autosaveSeconds": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "initialCoins": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "initialInventory": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "integer",
+        "minimum": 0
+      },
+      "propertyNames": {
+        "pattern": "^[a-z][a-z0-9_]*$"
+      }
+    },
+    "initialPlotCount": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "maxPlotCount": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "friendshipThresholds": {
+      "type": "array",
+      "items": {
+        "type": "integer",
+        "minimum": 0
+      }
+    },
+    "relationshipCooldownSeconds": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "maxImportBytes": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "maxReceipts": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "maxBackups": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "rescueSeeds": {
+      "type": "integer",
+      "minimum": 1
+    }
+  },
+  "required": [
+    "kitVersion",
+    "contentVersion",
+    "saveSchemaVersion",
+    "offlineCapSeconds",
+    "dayLengthSeconds",
+    "autosaveSeconds",
+    "initialCoins",
+    "initialInventory",
+    "initialPlotCount",
+    "maxPlotCount",
+    "friendshipThresholds",
+    "relationshipCooldownSeconds",
+    "maxImportBytes",
+    "maxReceipts",
+    "maxBackups",
+    "rescueSeeds"
+  ],
+  "additionalProperties": false
+}

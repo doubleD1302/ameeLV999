@@ -1,0 +1,1511 @@
+{
+  "package": "BloomingHome_VibeCoding_Kit",
+  "version": "1.0.1",
+  "date": "2026-09-28",
+  "language": "vi; asset prompts en",
+  "archiveFileCount": 302,
+  "status": "documentation_and_reference_data",
+  "hashPolicy": "MANIFEST and CHECKSUMS excluded from manifest entries to avoid circular hashes; CHECKSUMS covers manifest too.",
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "bytes": 3026,
+      "sha256": "39cef05e75615d6f824ffc52f198503ea3c8b24560304b92f987dc16b7b58384"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 710,
+      "sha256": "5c8f04d92451ffabd8dd22cea271bb01d9798e5b3997256dc3badc67059883ce"
+    },
+    {
+      "path": "CLAUDE.md",
+      "bytes": 306,
+      "sha256": "c47f3befd2cdccb7a53d1d8c001221ea41698330b9f86d465bdaedb76af6f812"
+    },
+    {
+      "path": "FILE_INDEX.md",
+      "bytes": 17753,
+      "sha256": "ab22255fe66078139a5bcdacbff7ad6c9378e8c0d3eb7cee318ee379d630e614"
+    },
+    {
+      "path": "GEMINI.md",
+      "bytes": 306,
+      "sha256": "c47f3befd2cdccb7a53d1d8c001221ea41698330b9f86d465bdaedb76af6f812"
+    },
+    {
+      "path": "QA_REPORT.md",
+      "bytes": 2912,
+      "sha256": "5d422c4e8ad18905dc051464bbc9d648245e65dc8c36a55ef16c7ddd53b2b6c0"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2388,
+      "sha256": "1aa96ad3aadedc0480c0e2eff4eb4eacd00e69e847d4ed5268d14fdbf0981f4b"
+    },
+    {
+      "path": "START_HERE.md",
+      "bytes": 3828,
+      "sha256": "c0665ca552d7aa2c90a07c7e3ac8bd8479d037e4877711f4a22fbc758c344467"
+    },
+    {
+      "path": "asset_prompts/00_SYSTEM/ASSET_GENERATION_SYSTEM_PROMPT.md",
+      "bytes": 1545,
+      "sha256": "e4677d6c50b94014993f56012bd6b9bbb6b715ba733e3bd464abbf50ce1d03f7"
+    },
+    {
+      "path": "asset_prompts/01_GLOBAL_STYLE/MASTER_STYLE_PROMPT.md",
+      "bytes": 1166,
+      "sha256": "c53e4f5a7d96e92505e4479e637cb8baee1bb86011120d90949764e92d2b7f4d"
+    },
+    {
+      "path": "asset_prompts/01_GLOBAL_STYLE/NEGATIVE_PROMPT.md",
+      "bytes": 627,
+      "sha256": "0bbd10f6526c4f42cbb14d94185d74a8b028486300290f08429f77f7d0b8fedf"
+    },
+    {
+      "path": "asset_prompts/01_GLOBAL_STYLE/REFERENCE_LOCK.md",
+      "bytes": 561,
+      "sha256": "3a7f2d62f39c0918e97ae7cdfd1ba9822a0114051ca12686d1a3ac31d5cf562b"
+    },
+    {
+      "path": "asset_prompts/02_CHARACTERS/CHARACTER_MASTER_PROMPT.md",
+      "bytes": 586,
+      "sha256": "7580f671e60055af16dd93bddb8b7c3e44dc92d2535568bb02434f4acea90019"
+    },
+    {
+      "path": "asset_prompts/02_CHARACTERS/CUTOUT_OPTIONAL.md",
+      "bytes": 483,
+      "sha256": "8f7ae2b7b41cc9a382b280f8413d560a1706be334bc4f98698526a701b0fde93"
+    },
+    {
+      "path": "asset_prompts/02_CHARACTERS/PLAYER_BASE.md",
+      "bytes": 484,
+      "sha256": "c1414171456d5b368ab93dc25a66cf4ea4bd4190a1a04de9fb1db99d6c79b6a9"
+    },
+    {
+      "path": "asset_prompts/02_CHARACTERS/TURNAROUND.md",
+      "bytes": 491,
+      "sha256": "732262f1088af2939c351ae36ec8d88c967729431cd948859c99290a79852188"
+    },
+    {
+      "path": "asset_prompts/03_PETS/MOMO_CAT.md",
+      "bytes": 456,
+      "sha256": "d01a9672e465734d400960a0511709ef6b9297fa22705ef4a988ae33599c49f3"
+    },
+    {
+      "path": "asset_prompts/03_PETS/PET_MASTER_PROMPT.md",
+      "bytes": 609,
+      "sha256": "a089772b08ab55c8f5546bec6c3a819ee6d5de4cf731e32c4aa2931d32e495d2"
+    },
+    {
+      "path": "asset_prompts/03_PETS/PIP_DUCK.md",
+      "bytes": 386,
+      "sha256": "46ffc667b9766fdd81040938222a6384f4c6175c4a285ab4bcb5d19e1c12dbcc"
+    },
+    {
+      "path": "asset_prompts/03_PETS/SNOW_RABBIT.md",
+      "bytes": 371,
+      "sha256": "4d8c9cc15cd9f80fe42adcd339d1457f2489c4065fa8cc94f8dbf05a93acad02"
+    },
+    {
+      "path": "asset_prompts/03_PETS/TOFU_CORGI.md",
+      "bytes": 388,
+      "sha256": "4a96ecd31d7954b88710482af0fa5681f357991325b2fd63a733716879007786"
+    },
+    {
+      "path": "asset_prompts/04_NPCS/ARTHUR.md",
+      "bytes": 413,
+      "sha256": "63b87ed90dc2a0593b9262792c4308cde30ca4afd1a0370bdee83eb78ce4d376"
+    },
+    {
+      "path": "asset_prompts/04_NPCS/LILY.md",
+      "bytes": 387,
+      "sha256": "23908655656cd90de0fe8ebe1ab22bc6e809becacf2d5daac4134a18a5da1a65"
+    },
+    {
+      "path": "asset_prompts/04_NPCS/NOAH.md",
+      "bytes": 375,
+      "sha256": "40dd888756162b3cdf132308cf8b09c5f12089c97791cc015b97e538a67ce244"
+    },
+    {
+      "path": "asset_prompts/04_NPCS/NPC_MASTER_PROMPT.md",
+      "bytes": 621,
+      "sha256": "4a30af2c125800edc6f8115edd52d77f143ae606835796c1259fddba82a3e2d8"
+    },
+    {
+      "path": "asset_prompts/05_ITEMS/ITEM_MASTER_PROMPT.md",
+      "bytes": 593,
+      "sha256": "44f41132a5ea93fb1fa6512360722892f7440360fed2f796c7e462470486aed1"
+    },
+    {
+      "path": "asset_prompts/05_ITEMS/MATERIALS.md",
+      "bytes": 377,
+      "sha256": "fc0f5766ce4ad300ea6d0ef8f41dd3ad05c1a9dc333a64912dc08afe49e239fa"
+    },
+    {
+      "path": "asset_prompts/05_ITEMS/SEED_PACKET.md",
+      "bytes": 416,
+      "sha256": "72ac3368f97cdafa5c7052e8373e021072e2276156f4c1602b44633bdb1887e8"
+    },
+    {
+      "path": "asset_prompts/05_ITEMS/TOOLS.md",
+      "bytes": 461,
+      "sha256": "7e17c8a139998c2414849644257ea44a0abcdb29343757161168e5888e819737"
+    },
+    {
+      "path": "asset_prompts/06_FLOWERS_PLANTS/DAISY_STAGES.md",
+      "bytes": 455,
+      "sha256": "ad0b43295682e197ccf5a664f283c7423efbc5726535134a98be8ad458ac7ec3"
+    },
+    {
+      "path": "asset_prompts/06_FLOWERS_PLANTS/FLOWER_MASTER_PROMPT.md",
+      "bytes": 621,
+      "sha256": "bb21f498d66e6b3f66e424fda804ec35c4265b8a3d098bc6025187b3195a9195"
+    },
+    {
+      "path": "asset_prompts/06_FLOWERS_PLANTS/FLOWER_VARIETY.md",
+      "bytes": 437,
+      "sha256": "279f4f99393b043177a33a19492b8e27aafaa5f28b2381841a7a74c71a2fef67"
+    },
+    {
+      "path": "asset_prompts/06_FLOWERS_PLANTS/HYBRID_FLOWER.md",
+      "bytes": 481,
+      "sha256": "72a213b49aeec1bc54cd69bb059d0e4f47b449c05e022e8dbbf887aaaebbf4af"
+    },
+    {
+      "path": "asset_prompts/06_FLOWERS_PLANTS/ORCHARD_TREE.md",
+      "bytes": 451,
+      "sha256": "b0705ac6f5171b27f3434ae2f87b023d27ae16b149ca04b8f871b5ed5f54c94e"
+    },
+    {
+      "path": "asset_prompts/07_ANIMALS_LIVESTOCK/ANIMAL_MASTER_PROMPT.md",
+      "bytes": 597,
+      "sha256": "d66d40e09e59be5ce1882104ae53f2857db4e359de1e68601061db022cb50cd9"
+    },
+    {
+      "path": "asset_prompts/07_ANIMALS_LIVESTOCK/CHICKEN.md",
+      "bytes": 386,
+      "sha256": "86dd3ccc1a7b067b0e127dca099a75e60b6714277de548ad18c52bd10501ff74"
+    },
+    {
+      "path": "asset_prompts/07_ANIMALS_LIVESTOCK/COW.md",
+      "bytes": 410,
+      "sha256": "27f905de0e82e5b28bdcf3c4c9910540e7f351d2f5adb7fe26ee749875f46b7c"
+    },
+    {
+      "path": "asset_prompts/07_ANIMALS_LIVESTOCK/SHEEP.md",
+      "bytes": 413,
+      "sha256": "2278d27923b4c95bc44e4f98d279240f4d73109e22e74977e053610846cab7d1"
+    },
+    {
+      "path": "asset_prompts/08_BUILDINGS/BARN.md",
+      "bytes": 408,
+      "sha256": "06ccd09bb469a92e918cd5b844ef2a90ccb411d3a05e61d596e4b8001ad1c69d"
+    },
+    {
+      "path": "asset_prompts/08_BUILDINGS/BUILDING_MASTER_PROMPT.md",
+      "bytes": 650,
+      "sha256": "aaf6a0ae095792d07620f7c3b52bd31a377a63497c04df4f756bd71d32a51c8c"
+    },
+    {
+      "path": "asset_prompts/08_BUILDINGS/COTTAGE_STAGES.md",
+      "bytes": 529,
+      "sha256": "a5606bc3f1f23150012e22972c9299955b38f9e1b5b7081bc5ea0f5e89b98529"
+    },
+    {
+      "path": "asset_prompts/08_BUILDINGS/GREENHOUSE.md",
+      "bytes": 452,
+      "sha256": "cedb12c8ab801de58b5fec8ccea5ef6f740a31daf95a6054c140cd78550d797b"
+    },
+    {
+      "path": "asset_prompts/08_BUILDINGS/WINDMILL.md",
+      "bytes": 409,
+      "sha256": "ef5d6b01fa7a406dc56e4246440950aa19361204aff23c7910821c1ad720faca"
+    },
+    {
+      "path": "asset_prompts/09_ENVIRONMENT/DEBRIS.md",
+      "bytes": 442,
+      "sha256": "8290cc043d2ff8f9e0a119c6147dd7299061ec200d2cf6fa516e8b08d78a992f"
+    },
+    {
+      "path": "asset_prompts/09_ENVIRONMENT/ENVIRONMENT_MASTER_PROMPT.md",
+      "bytes": 578,
+      "sha256": "a0a99c446d23bc89fb5fd2f47eb432b5579191b2df014dd1af927e8daabd6524"
+    },
+    {
+      "path": "asset_prompts/09_ENVIRONMENT/PATH_FENCE.md",
+      "bytes": 424,
+      "sha256": "d8602a2e9a8763d909d4b9c8e7f8e471a437f700e4adaa7e9020139c82d553e8"
+    },
+    {
+      "path": "asset_prompts/09_ENVIRONMENT/TERRAIN_TILES.md",
+      "bytes": 481,
+      "sha256": "78d6612fb7adb0cdace2d68f98e28b8b651d21541665dbf5746668bb28f99d1d"
+    },
+    {
+      "path": "asset_prompts/09_ENVIRONMENT/WATER_AND_POND.md",
+      "bytes": 440,
+      "sha256": "b82b1012deec2247735d08d183a497faaa23b1c2af0e45b740d8bed3466dfe1e"
+    },
+    {
+      "path": "asset_prompts/10_MAPS/COTTAGE_LAYOUT.md",
+      "bytes": 485,
+      "sha256": "62d35c35f63489b0a14264a8791c44dea053a752510d63d08740f5aedd516cf8"
+    },
+    {
+      "path": "asset_prompts/10_MAPS/INTERIOR.md",
+      "bytes": 442,
+      "sha256": "960ca0dd1c203cd26e2076bc5cec9075ed0ec6f3f98a65ec89601fc17085ee07"
+    },
+    {
+      "path": "asset_prompts/10_MAPS/MAP_MASTER_PROMPT.md",
+      "bytes": 656,
+      "sha256": "117f2cfa6a1476913312a41d7b3d4306840babe993a91cf4b10d37bb4e81ce28"
+    },
+    {
+      "path": "asset_prompts/11_FURNITURE_DECOR/BENCH.md",
+      "bytes": 443,
+      "sha256": "7289e9a0d36ac121c63e660a778446deb9d50387495afc27a6442be6a0707b09"
+    },
+    {
+      "path": "asset_prompts/11_FURNITURE_DECOR/DECOR_SET.md",
+      "bytes": 426,
+      "sha256": "aaa5ca2ac31d6d1b3b660e962a6fd80acc33636769052f0db5084a1dbbb266aa"
+    },
+    {
+      "path": "asset_prompts/11_FURNITURE_DECOR/FURNITURE_MASTER_PROMPT.md",
+      "bytes": 624,
+      "sha256": "9e83184b4e8b0a4736b40e3f2c947c88c8aff4055e1a9d84cf693340f06b1bc2"
+    },
+    {
+      "path": "asset_prompts/12_UI/JOURNAL_FRAME.md",
+      "bytes": 398,
+      "sha256": "bd1ebef83357221f571fb688d6397efa9cfef84ef4be8f4a175cbb5a6aba2107"
+    },
+    {
+      "path": "asset_prompts/12_UI/PANEL_BUTTON.md",
+      "bytes": 460,
+      "sha256": "b14165b0d6bc99b03c2554f0baacde675bd228856b1580ed013e7e0850c54722"
+    },
+    {
+      "path": "asset_prompts/12_UI/UI_MASTER_PROMPT.md",
+      "bytes": 603,
+      "sha256": "4f355b41ee22f2ebff70a2c14551ee532ee2f3541d26cf0e35cc8f86c4543716"
+    },
+    {
+      "path": "asset_prompts/13_ICONS/ICON_MASTER_PROMPT.md",
+      "bytes": 577,
+      "sha256": "2f8635504cf835d42fd08419bef44f8e91f9b38ddadac7d13ae7992503929f41"
+    },
+    {
+      "path": "asset_prompts/13_ICONS/RESOURCE_STATUS.md",
+      "bytes": 432,
+      "sha256": "1919e6d2320583a3cd0ca47ed4867bc9395239dc291b3a880693a84744542982"
+    },
+    {
+      "path": "asset_prompts/14_EFFECTS/BLOOM_WATER.md",
+      "bytes": 430,
+      "sha256": "2a9eb6dd0a66eb0028886f5f4dd7dfa1172b20b4c354cf39a1c4f17f9ebeeca5"
+    },
+    {
+      "path": "asset_prompts/14_EFFECTS/VFX_MASTER_PROMPT.md",
+      "bytes": 617,
+      "sha256": "22853b9e2eb67bdd21903393fec501adb87ed4bf1203cb383b4af87bfe65954c"
+    },
+    {
+      "path": "asset_prompts/15_PUZZLE_ASSETS/LIGHT_GEAR.md",
+      "bytes": 442,
+      "sha256": "121d6ef5c93d07131e20c596704edffd7f16f50185ba72391092ce10e259c489"
+    },
+    {
+      "path": "asset_prompts/15_PUZZLE_ASSETS/MEMORY_CARD.md",
+      "bytes": 403,
+      "sha256": "acf0771db4334209505b39efae8644ba48a9e87df1b83e179e7126547648efd0"
+    },
+    {
+      "path": "asset_prompts/15_PUZZLE_ASSETS/PIPE_TILE.md",
+      "bytes": 446,
+      "sha256": "807dbc311fb7d987e6a3e85a5d969852ef8276df44ace75c9cdefa5210ee4b4e"
+    },
+    {
+      "path": "asset_prompts/15_PUZZLE_ASSETS/PUZZLE_MASTER_PROMPT.md",
+      "bytes": 593,
+      "sha256": "3d40249cf683655f9ab8544130700458fa8399d6940cb4f7797403f33b8489fc"
+    },
+    {
+      "path": "asset_prompts/15_PUZZLE_ASSETS/SLIDING_PHOTO.md",
+      "bytes": 462,
+      "sha256": "fca9ec8a3a896594a15133ee1cf9502cfd2aee9105695be8767be65a374bbe68"
+    },
+    {
+      "path": "asset_prompts/16_STORY_ASSETS/ENDING_SCENE.md",
+      "bytes": 471,
+      "sha256": "8c7277dc017badc8d8391c55c56551ba03b3070daf5f29502ce160b59bce4f16"
+    },
+    {
+      "path": "asset_prompts/16_STORY_ASSETS/JOURNAL_LETTER.md",
+      "bytes": 425,
+      "sha256": "f43a1e833a34bead4bfa49fc7b02e19af6f64456330590a6ba32c9b9b9ef3fe4"
+    },
+    {
+      "path": "asset_prompts/16_STORY_ASSETS/STORY_MASTER_PROMPT.md",
+      "bytes": 630,
+      "sha256": "6276ee3a5bcce6f2a0fd5cfe352cfd1501ba6ff06bda94f51633f455fac6ad0b"
+    },
+    {
+      "path": "asset_prompts/17_ANIMATION/ANIMATION_MASTER_PROMPT.md",
+      "bytes": 641,
+      "sha256": "af79f5eea7bb26d939eac7a3cfc5f96705bb652ef548b043c2a5ae82fb21041a"
+    },
+    {
+      "path": "asset_prompts/17_ANIMATION/ENVIRONMENT_LOOP.md",
+      "bytes": 444,
+      "sha256": "bf27ed05a48f4c59ea53d775dfb0f7a8390b304ef20ed182fd243a7e4a2029ec"
+    },
+    {
+      "path": "asset_prompts/17_ANIMATION/PET_LOOPS.md",
+      "bytes": 444,
+      "sha256": "46e0322b3757094a2e3d3f7556e15f0071f2cb4c18360e426d40d2487368e17c"
+    },
+    {
+      "path": "asset_prompts/17_ANIMATION/PLAYER_WALK.md",
+      "bytes": 456,
+      "sha256": "f5efcd696b2cafbd4b65eaffb9022b1615f6be3ee13894377f8dbf4b06dbf35c"
+    },
+    {
+      "path": "asset_prompts/18_VARIATIONS/SEASON_REPAIR.md",
+      "bytes": 459,
+      "sha256": "88f3845e393735ed6f024e2b2c999a6b57489b853bd1fb85bdd01a99c0816421"
+    },
+    {
+      "path": "asset_prompts/18_VARIATIONS/VARIATION_MASTER_PROMPT.md",
+      "bytes": 594,
+      "sha256": "db59d117a3520f48be8b9f736a8cbc7f0a6aa5fa47b9ef9c0c6f0d8e89c5363e"
+    },
+    {
+      "path": "asset_prompts/19_QA/ANIMATION_REVIEW.md",
+      "bytes": 466,
+      "sha256": "7b2571863bdba0da7623f84f87c60ee6e52dca372e53717e37ddc6e77b365ec9"
+    },
+    {
+      "path": "asset_prompts/19_QA/ASSET_QA_SYSTEM_PROMPT.md",
+      "bytes": 624,
+      "sha256": "4539c30071096bd92316404e72d0706411d35bea51b2a3cbf913b57bf7c1341a"
+    },
+    {
+      "path": "asset_prompts/19_QA/MAP_REVIEW.md",
+      "bytes": 473,
+      "sha256": "2e7bb31c631712f34d488f6956094e9c3fc320eac84246741dd57a3aeadb92f9"
+    },
+    {
+      "path": "asset_prompts/20_BATCH_GENERATION/BATCH_MANIFEST.md",
+      "bytes": 488,
+      "sha256": "45bdbf9bc691cff386929e516bb45924cb9d8e727961b0fedc56a9e4faebe663"
+    },
+    {
+      "path": "asset_prompts/20_BATCH_GENERATION/BATCH_SYSTEM_PROMPT.md",
+      "bytes": 660,
+      "sha256": "14384fca69259b7416df4025c3c44b12fddb751140f8ad1032ab93172cf95263"
+    },
+    {
+      "path": "asset_prompts/21_AUDIO/AUDIO_MASTER_PROMPT.md",
+      "bytes": 695,
+      "sha256": "e83608e2301e2ba5d3782abf31943d39a4e56b1feaa48c005de81734a7d3a41d"
+    },
+    {
+      "path": "asset_prompts/21_AUDIO/GARDEN_MUSIC.md",
+      "bytes": 513,
+      "sha256": "e55a58d3a4b0697c9e303ad50e1de070937db76d870436e0dd0529df56393bcf"
+    },
+    {
+      "path": "asset_prompts/21_AUDIO/SFX_PACK.md",
+      "bytes": 449,
+      "sha256": "16d99bd5fd7ad5a6b0cc7eba269d802d47b2b0dc7b8c1c5ca4a6ca71c92955df"
+    },
+    {
+      "path": "asset_prompts/EXAMPLE_COMPOSED_PROMPT.txt",
+      "bytes": 4661,
+      "sha256": "02fcd407a87b4d36d31ea77a67ea31fbfdc1deaf6439a93744a531a9a4c667e4"
+    },
+    {
+      "path": "asset_prompts/README.md",
+      "bytes": 1345,
+      "sha256": "99358d57a86a7a9ebc6d01823ca309890b6ee35602ec15f7a583b2c9c7b4a417"
+    },
+    {
+      "path": "asset_prompts/categories.json",
+      "bytes": 1342,
+      "sha256": "d1a005c2697774b02d3ec0166de8475e7be5bb391c23ed46d74d4b5e9e01293a"
+    },
+    {
+      "path": "asset_prompts/example_request.json",
+      "bytes": 402,
+      "sha256": "f0f95d46d09efe80a0545e29c7e7d1411e34e5c9ffb5a3f15d3be4cd423844f0"
+    },
+    {
+      "path": "contracts/README.md",
+      "bytes": 555,
+      "sha256": "3e680caba66c60d1216b1c58390a5b91f1c4845f4483aae4da7f2abc3ef8ab4c"
+    },
+    {
+      "path": "contracts/domain.ts",
+      "bytes": 3660,
+      "sha256": "fd320775ea2b550c5518812846c12806ca625205c7e4a79da0da072c776e4f3c"
+    },
+    {
+      "path": "contracts/puzzle.ts",
+      "bytes": 788,
+      "sha256": "2f1c6851d22a81980ade11413bf850b27d56aac253441c7cd809f3a46f6255d0"
+    },
+    {
+      "path": "data/ASSET_REQUESTS.csv",
+      "bytes": 32289,
+      "sha256": "c7e14b0da07924558bbc8775fc23ff1b733d8705fc68621558bc8ccb4deb8c77"
+    },
+    {
+      "path": "data/README.md",
+      "bytes": 1230,
+      "sha256": "7477d4e9d243f81263045d22054fa48756c7d5e5bd57792800174a3930e11919"
+    },
+    {
+      "path": "data/animation_specs.json",
+      "bytes": 17003,
+      "sha256": "0b4a8574cdf3d9f07b86c4dab1cada474b88fd34cd0c5ca6304db3cbe70bc02f"
+    },
+    {
+      "path": "data/asset_registry.json",
+      "bytes": 151613,
+      "sha256": "149316883470e89c5d8eda7e1ec529f5546ef1a6c6129bae250d81eb92c81eea"
+    },
+    {
+      "path": "data/audio_registry.json",
+      "bytes": 5414,
+      "sha256": "98331c50fbb8f5bb6cc6ad5c75b9658cbd7caa04a8a0f0da4da64c3595d3b328"
+    },
+    {
+      "path": "data/config.json",
+      "bytes": 495,
+      "sha256": "c7f6f1e480ad3bbae8480d89f7aed93824bb9c360c7b716d3403246575fcbce3"
+    },
+    {
+      "path": "data/dialogues.json",
+      "bytes": 1506,
+      "sha256": "87c4e66c8aeebc6a38eb08862cc1dd081289e68191182097f2616175a4e9c618"
+    },
+    {
+      "path": "data/fish.json",
+      "bytes": 425,
+      "sha256": "8b7e2ff33818209afdff6dd093bfcf3a6afddbfbdf3b17b0bace6c5691bd45f2"
+    },
+    {
+      "path": "data/flags.json",
+      "bytes": 431,
+      "sha256": "4bd6ea4a4398375e2148a776438a2b92994771262589a59ede89e0384a2f0751"
+    },
+    {
+      "path": "data/flowers.json",
+      "bytes": 1553,
+      "sha256": "d010282135ee5e30e4fa57217764e63c68dd75ad59af8949ff70a38d532cfe1c"
+    },
+    {
+      "path": "data/furniture.json",
+      "bytes": 2805,
+      "sha256": "b9c3bb72b1a90ce5d0a6decbffff62ebd87d0dd2b3f4542b7842e0917e995639"
+    },
+    {
+      "path": "data/items.json",
+      "bytes": 5654,
+      "sha256": "ab81249465fab6c63e4a98754778650c63111c771a94fba9d9375499d25e330f"
+    },
+    {
+      "path": "data/livestock.json",
+      "bytes": 577,
+      "sha256": "b30b8928aa60349c43c1b64424e557e7a99a3ff4af52c34e8c5b67db3437ba17"
+    },
+    {
+      "path": "data/localization/vi.json",
+      "bytes": 2910,
+      "sha256": "f3a1e8feb8b429d86b2ea31e0da77a1bc53133552f4abc08ba4ee9930b2ffa01"
+    },
+    {
+      "path": "data/maps/cottage.json",
+      "bytes": 6425,
+      "sha256": "c589f4d670c167d28762715b35164b190f12bc4f1806f35b7111be9f3939d42b"
+    },
+    {
+      "path": "data/maps/greenhouse.json",
+      "bytes": 1989,
+      "sha256": "9d5f8a850c811b7f9271c8ac8d57324809dfeaf153a317578091007cc8f3e7c9"
+    },
+    {
+      "path": "data/neighbors.json",
+      "bytes": 1754,
+      "sha256": "2d24672f139bb9b9bf43f2c9bb53a6d691b3cb6e640851f3ba87dbd464e4b13e"
+    },
+    {
+      "path": "data/personalization.json",
+      "bytes": 131,
+      "sha256": "a4ffd9cf00e1cca484046210c69447eab92cb6d06511f8b8bf1ce52be44c61a4"
+    },
+    {
+      "path": "data/pets.json",
+      "bytes": 726,
+      "sha256": "2fa813ad9a8e44feb72a309cf5f89e45e815e50bf9513680c05aa0a394afe24a"
+    },
+    {
+      "path": "data/puzzle_symbols.json",
+      "bytes": 736,
+      "sha256": "e33c84beec499756d47a03e4e8926a7b503a618eea212a44c8e5e26816fb711c"
+    },
+    {
+      "path": "data/puzzles.json",
+      "bytes": 8146,
+      "sha256": "accf48c7b4ed7d79892e875b923e8962302109d8b6a185d4c5044ae0e27a42e5"
+    },
+    {
+      "path": "data/quests.json",
+      "bytes": 3033,
+      "sha256": "25ceb380d4bea37de7192bd9d85761530afe2d378ab3d82f0e6823800056a701"
+    },
+    {
+      "path": "data/recipes.json",
+      "bytes": 278,
+      "sha256": "7a6b1bfef10db8fca934f9480a50691b99b83a1ad355cca70bf5c2d3897547ca"
+    },
+    {
+      "path": "data/ui_tokens.json",
+      "bytes": 419,
+      "sha256": "a4c156122893f77d043725c32e2ccfd92845b34c33c53503aacefaa3333fca89"
+    },
+    {
+      "path": "data/upgrades.json",
+      "bytes": 822,
+      "sha256": "8567b2dc0e9762d8c97d2656d52acd42ddc8c22b6c41fb7568baa64919208c4d"
+    },
+    {
+      "path": "data/zones.json",
+      "bytes": 932,
+      "sha256": "15f3af9e1f9e53ff318bc05b7e1e5c3152605762622d9baccc3a4bdd4f7a2104"
+    },
+    {
+      "path": "docs/00_project/DECISIONS.md",
+      "bytes": 2536,
+      "sha256": "308430d53a5b62aaf189e7f4f4f9ffb3130c4c9314f5cc3c2a1f5921ab8baaa0"
+    },
+    {
+      "path": "docs/00_project/DOCS_GOVERNANCE.md",
+      "bytes": 1424,
+      "sha256": "e3f488f3e4a19561c6b7c841af5bcb7cd203f6d3ffd91af404631d4f1f4cdc29"
+    },
+    {
+      "path": "docs/00_project/PROJECT_OVERVIEW.md",
+      "bytes": 1702,
+      "sha256": "97185daf65c26ce0a39940a9fde6a427098513a21fac6ba70df56197e853b367"
+    },
+    {
+      "path": "docs/00_project/REQUIREMENTS.md",
+      "bytes": 2127,
+      "sha256": "7b146a41f5ed88300d839c9c636f3d2892d479f47ab2939e95a37e677491d3a8"
+    },
+    {
+      "path": "docs/00_project/SCOPE.md",
+      "bytes": 2146,
+      "sha256": "128deeb295df78d5cba67ef8e6e8621bb092fac0001c94038ab4d3f81ceb23cc"
+    },
+    {
+      "path": "docs/00_project/TRACEABILITY.md",
+      "bytes": 1225,
+      "sha256": "039db46a173bc52cca5273234bd18e36842c9ed48424c959cb0fb35370091d0a"
+    },
+    {
+      "path": "docs/01_design/CORE_LOOP_ONBOARDING.md",
+      "bytes": 1406,
+      "sha256": "666a8186a9c6c4b969b94cc8b9b8a63356307dbd0fcbb13b247eb7ad88520a88"
+    },
+    {
+      "path": "docs/01_design/ECONOMY_BALANCE.md",
+      "bytes": 1787,
+      "sha256": "04788e523610ebff1b95eb4a57bdfa2010731234c55cf308aa68b237637f8868"
+    },
+    {
+      "path": "docs/01_design/GAME_VISION.md",
+      "bytes": 1396,
+      "sha256": "8ae5c26df72b2ddca22d4f775096b01da0d34bf601f9beb94bc55fdce41b0f04"
+    },
+    {
+      "path": "docs/01_design/GDD_MASTER.md",
+      "bytes": 2114,
+      "sha256": "24a80ad81737c862b1fb588be3e347005229f323e3f2472e1fc424dfe614fa4e"
+    },
+    {
+      "path": "docs/01_design/PERSONALIZATION.md",
+      "bytes": 1309,
+      "sha256": "bed1e97df32120564d9998185dd36d5f146c088ad2005774ea26074979c894af"
+    },
+    {
+      "path": "docs/01_design/PROGRESSION_UNLOCKS.md",
+      "bytes": 1476,
+      "sha256": "17a9fc4dc9ecc82e22205d632de104d9d568aeffa25eb3687bc28f2724e1ee8b"
+    },
+    {
+      "path": "docs/02_world/COTTAGE_ZONE.md",
+      "bytes": 1240,
+      "sha256": "03cefefbc987915ea7db99ed0827131b84a2b03cc08381198793a97862f3d711"
+    },
+    {
+      "path": "docs/02_world/RESTORATION_STAGES.md",
+      "bytes": 1304,
+      "sha256": "7f21efe0baec6a190d80e3843e1fbb4a3f9069cbb2dc2eb5f4967a4d6100da54"
+    },
+    {
+      "path": "docs/02_world/WORLD_BIBLE.md",
+      "bytes": 1217,
+      "sha256": "b249f0a5b147070556b058a7bd482f836986b9f55ed851cae8f9042b47996ff0"
+    },
+    {
+      "path": "docs/02_world/WORLD_MAP.md",
+      "bytes": 1305,
+      "sha256": "b746c6999ac2e83194bcf611d3cb8458d90cc70556d51674345c9de7a31c766e"
+    },
+    {
+      "path": "docs/03_characters/NEIGHBORS.md",
+      "bytes": 1456,
+      "sha256": "662efa25b6ea3e0944bcc3bc6a6668fe8b8c83dd6806896b3d79d3e76ddb066b"
+    },
+    {
+      "path": "docs/03_characters/NPC_SCHEDULES.md",
+      "bytes": 897,
+      "sha256": "6aa00de077d87569616823a8ccdb3236c931e5e5c67c27ca91e0badea44a0eaf"
+    },
+    {
+      "path": "docs/03_characters/PET_BIBLE.md",
+      "bytes": 977,
+      "sha256": "a0bae0a0a515dbf0fcde86c41c9ad1243330d1f05db16786d1d8db0623d4c844"
+    },
+    {
+      "path": "docs/03_characters/PLAYER.md",
+      "bytes": 1105,
+      "sha256": "a5ee7c2760b63707ce9ce1b8a3ca6cf4bc79644f2162e32637690ed23f461592"
+    },
+    {
+      "path": "docs/04_systems/AUTOMATION.md",
+      "bytes": 1177,
+      "sha256": "800c6386d3f57cc51caec71f03f79cff35a6c3e0542d2fc86e6fa532d983afd8"
+    },
+    {
+      "path": "docs/04_systems/COLLECTIONS_EVENTS.md",
+      "bytes": 1248,
+      "sha256": "86fab73d7c3e5653d2e22ec3a01c498fc822497228712f6104de1fd915e1c27d"
+    },
+    {
+      "path": "docs/04_systems/COOKING.md",
+      "bytes": 1071,
+      "sha256": "97400fa9b07f0b2d4949af0852579e992fbb5c3b5a27a0e1e60eb80f4bc6d885"
+    },
+    {
+      "path": "docs/04_systems/CRAFTING.md",
+      "bytes": 1253,
+      "sha256": "4d41dfca269b403778dc33ac1b0f35391336f45a23c1436d0369feab86ec1794"
+    },
+    {
+      "path": "docs/04_systems/DAY_WEATHER_SEASONS.md",
+      "bytes": 1189,
+      "sha256": "02becf16e549326b7df34c8b8bb91c9cf71a3a69f15f493038b6ddef979e317b"
+    },
+    {
+      "path": "docs/04_systems/DECORATION.md",
+      "bytes": 1254,
+      "sha256": "dcb927451f3dd3dd160a7e7eeec4771f86edde1d42e863efd99a12601b4f31f6"
+    },
+    {
+      "path": "docs/04_systems/EXPLORATION_FORAGING.md",
+      "bytes": 1176,
+      "sha256": "77079844597d7a5ddff34ce5b768a889d27ea62c37a0f89dc828b12a96698db0"
+    },
+    {
+      "path": "docs/04_systems/FISHING.md",
+      "bytes": 1304,
+      "sha256": "41d5669f0c45c92334053d41bd48bd7abdf15c152602f96ca00ce22d03376a13"
+    },
+    {
+      "path": "docs/04_systems/FLOWERS.md",
+      "bytes": 1442,
+      "sha256": "087717253727c01fee19f11a138c00689be04847402a94d5678db376c852cdd8"
+    },
+    {
+      "path": "docs/04_systems/HYBRIDS.md",
+      "bytes": 1250,
+      "sha256": "3ff282dc26029beb78de37a1e23ffa17977ed5191a15d1f9ee444893ca04dbb0"
+    },
+    {
+      "path": "docs/04_systems/IDLE.md",
+      "bytes": 1320,
+      "sha256": "806bc04ab478b7ccb9ab27de5a3d9b9b315245c3cab3938aeafa494d8d7614de"
+    },
+    {
+      "path": "docs/04_systems/INVENTORY.md",
+      "bytes": 1268,
+      "sha256": "65c379b4c01bf38c168a853e700a1ca80d44c5076100b97525452aa191a2e873"
+    },
+    {
+      "path": "docs/04_systems/LIVESTOCK.md",
+      "bytes": 1139,
+      "sha256": "99ecf3d2563fe58f481b3bee2c5d6689b937e974b0f730dd86cbaed9666c859d"
+    },
+    {
+      "path": "docs/04_systems/NEIGHBORS_RELATIONSHIPS.md",
+      "bytes": 1223,
+      "sha256": "0436be73a0945bc66e1283fa35b7706f2ed3c362c0f0466427a1732bed719f96"
+    },
+    {
+      "path": "docs/04_systems/ORCHARD_FARMING.md",
+      "bytes": 1186,
+      "sha256": "2933dfaa05e91199d168a434488377016fa45b9ea0cc4f3d309c29ca977c2fe4"
+    },
+    {
+      "path": "docs/04_systems/PETS.md",
+      "bytes": 1304,
+      "sha256": "0690c89a914c26457b729bb51c6dc60fc82ef9eb8b5cfa1ff11f3625239f99a8"
+    },
+    {
+      "path": "docs/04_systems/QUESTS_REWARDS.md",
+      "bytes": 1272,
+      "sha256": "6b294fe81d6ae62e0cd5bca6dda1fac389823e2862be6564a1b68b5aaf392713"
+    },
+    {
+      "path": "docs/04_systems/RESTORATION.md",
+      "bytes": 1328,
+      "sha256": "9697d2eabde3de1adc3b0a6a018840bd287f710077046171c39454d3068373f6"
+    },
+    {
+      "path": "docs/04_systems/SHOP_ECONOMY.md",
+      "bytes": 1412,
+      "sha256": "ebcdb4906cf8c46ded962b8693843a8956791abe4b583562dee3543ebc2ebc30"
+    },
+    {
+      "path": "docs/04_systems/TOOLS.md",
+      "bytes": 1075,
+      "sha256": "7fe811d8ce7aff57bc830c90be54d2ad5b6f317d034a4c7966a8eca593474fd9"
+    },
+    {
+      "path": "docs/05_puzzles/DEDUCTION.md",
+      "bytes": 1085,
+      "sha256": "8201ef07fe76d90b13296fa26811d0daa069892dc9852ee22814bd07d9c25179"
+    },
+    {
+      "path": "docs/05_puzzles/DIFFICULTY_HINTS.md",
+      "bytes": 1242,
+      "sha256": "4077bb3abe8ff1fbdb18828563713648edf2a2118c10e6da1265231b471a5353"
+    },
+    {
+      "path": "docs/05_puzzles/ENGINE_CONTRACT.md",
+      "bytes": 1380,
+      "sha256": "6cbbdb9ace46a82691917897f6015845160351d52f8d39fb51ff0ee92ddcfc45"
+    },
+    {
+      "path": "docs/05_puzzles/ENVIRONMENTAL_MYSTERY.md",
+      "bytes": 1077,
+      "sha256": "7944f29e2d17549b6c77bf4290f5c2598f27075811b75ca08872070d554117cf"
+    },
+    {
+      "path": "docs/05_puzzles/FLOWER_LOGIC.md",
+      "bytes": 1006,
+      "sha256": "cba65788e91348f6094093cd4313243005acb6ff0b1f17b46e3326becda09eb1"
+    },
+    {
+      "path": "docs/05_puzzles/GEARS.md",
+      "bytes": 1090,
+      "sha256": "3cdae9da72607c7dd6a6e64d64e128ac3a2342c8a9123735b88b4dead2cea9ac"
+    },
+    {
+      "path": "docs/05_puzzles/HIDDEN_OBJECT.md",
+      "bytes": 949,
+      "sha256": "c6fdc957591b4eb216f41e2fbbc8c97557406c8ebff7fe8ca0ee09acbbb0953b"
+    },
+    {
+      "path": "docs/05_puzzles/LEVEL_AUTHORING.md",
+      "bytes": 1468,
+      "sha256": "00a6026a4dbac47051ebc92e1d571cda7e28b28a89f197ac6f055463876a357c"
+    },
+    {
+      "path": "docs/05_puzzles/LIGHT.md",
+      "bytes": 972,
+      "sha256": "fceed1ad5c3fa402416bce751d1d48fadc441c2e5c643a76a2f0d521f0538590"
+    },
+    {
+      "path": "docs/05_puzzles/MEMORY.md",
+      "bytes": 1037,
+      "sha256": "19e1a0222971a4325e6dd338ea06107fbff0b4897d76d9d21b6f45a5ea657ba1"
+    },
+    {
+      "path": "docs/05_puzzles/PIPE_ROTATION.md",
+      "bytes": 1077,
+      "sha256": "72dd21d7c35d6e0abcef293256b7d96a5e90aeef01885104051fefefd723b45a"
+    },
+    {
+      "path": "docs/05_puzzles/SLIDING.md",
+      "bytes": 1014,
+      "sha256": "fc6c60dc8e6348e91dd7f38fb26126706ff1f1c9fb1e82303b48c9f2edbae639"
+    },
+    {
+      "path": "docs/05_puzzles/WATER_FLOW.md",
+      "bytes": 1094,
+      "sha256": "c4bf37f6e274f60a6852cd9cbdcedacddb24447c502303e7426ae0cce53583bd"
+    },
+    {
+      "path": "docs/06_story/ACT1_SCRIPT.md",
+      "bytes": 1787,
+      "sha256": "760c401a75bcd4c2b3bd931b7931cdfa881efa257ab8dbedd76845feb522ffb6"
+    },
+    {
+      "path": "docs/06_story/CHAPTERS.md",
+      "bytes": 1451,
+      "sha256": "d6a24314db43ac57ce328b852abd099ddfcf319d682aa2c133906d9245ae3909"
+    },
+    {
+      "path": "docs/06_story/DIALOGUE_STYLE.md",
+      "bytes": 1136,
+      "sha256": "a9bdd705789ceaa31ee12afe8ace96ee8d127ecab8e7182d4ed4099da1cd4acf"
+    },
+    {
+      "path": "docs/06_story/GRANDMA_JOURNAL.md",
+      "bytes": 1321,
+      "sha256": "e23958d89c9112654cafeec62084a3fad59aa143e67c1156db4b5277d0362681"
+    },
+    {
+      "path": "docs/06_story/SIDE_STORIES.md",
+      "bytes": 1149,
+      "sha256": "ed32dbf1f7d67640fcd7bc7fd93d64bd997f94da066d820439f4fd5e8813705a"
+    },
+    {
+      "path": "docs/06_story/STORY_BIBLE.md",
+      "bytes": 1319,
+      "sha256": "8f560526bf8f4b3381a956e7db058ac05696c301f78fce24fe9fa7cd1d337bca"
+    },
+    {
+      "path": "docs/07_art/ANIMATION_GUIDE.md",
+      "bytes": 1392,
+      "sha256": "1f2b7945d660440f6eedf2271a6c43991b18c2ca6d863c3ae6284b865a839a62"
+    },
+    {
+      "path": "docs/07_art/ART_BIBLE.md",
+      "bytes": 1554,
+      "sha256": "d5704cc8b1fddb5187b0b4f310251d4ac45647ac773bd13da488f0307eaeb6f5"
+    },
+    {
+      "path": "docs/07_art/ASSET_QA_PROVENANCE.md",
+      "bytes": 1215,
+      "sha256": "b0d027194f3b281737ed0c4e921718c16fe602beb0d250de4a5368b29865c5fb"
+    },
+    {
+      "path": "docs/07_art/ASSET_SPECS.md",
+      "bytes": 1474,
+      "sha256": "b05e67503a33724701c0e08648fd5f97675282115c700bf52e6446386877403a"
+    },
+    {
+      "path": "docs/07_art/COLOR_PALETTE.md",
+      "bytes": 995,
+      "sha256": "1fe6262fb3b64c662b48f079041a890d4016783f93310f705a56664e37b33a5d"
+    },
+    {
+      "path": "docs/07_art/STYLE_LOCK_AND_REFERENCES.md",
+      "bytes": 1100,
+      "sha256": "ea671ec4fa3af35a102d9c6eba291d1d3d436755d9fd5ea4bcf2e8afbaf8e2c9"
+    },
+    {
+      "path": "docs/08_ui/ACCESSIBILITY.md",
+      "bytes": 1148,
+      "sha256": "4c7fa742d5776c66bb6b06418c890b9294cbe9862249712fd572f8cd5ea0fbb3"
+    },
+    {
+      "path": "docs/08_ui/INPUT_RESPONSIVE.md",
+      "bytes": 1114,
+      "sha256": "cad56fd6a13b2167068db4d263a2ebc5c14579a1b6e2a4251f458036cde9021f"
+    },
+    {
+      "path": "docs/08_ui/MICROCOPY_LOCALIZATION.md",
+      "bytes": 1218,
+      "sha256": "47788163994adb8f192bccd0cdcd3f1bd67097b3c435a80d557e3a75783e53a0"
+    },
+    {
+      "path": "docs/08_ui/SCREEN_SPECS.md",
+      "bytes": 1796,
+      "sha256": "4a035042305a52b6baf162a5aa85934d1990c1158df3c4b89fa29ddf2cfec825"
+    },
+    {
+      "path": "docs/08_ui/UI_FLOWS.md",
+      "bytes": 1230,
+      "sha256": "b49e63736bccae08dbd89799531e870f29e15f4f7c97154519d5ea2c5564d6d6"
+    },
+    {
+      "path": "docs/09_audio/AUDIO_BIBLE.md",
+      "bytes": 1013,
+      "sha256": "acdc4d946588511659baee0943c2ebbb34f245eb8f9c862a9b68eb3b5cd9ecab"
+    },
+    {
+      "path": "docs/09_audio/CUE_SHEET.md",
+      "bytes": 1111,
+      "sha256": "b90f536bd47096941964837f00ab32c2ab307fd5646475c2ef056cdff5481759"
+    },
+    {
+      "path": "docs/10_tech/ARCHITECTURE.md",
+      "bytes": 1867,
+      "sha256": "e7b84fce6a35da8e84f5f667f8c35c0e79099a758c543be7adca2958b75fdaec"
+    },
+    {
+      "path": "docs/10_tech/ASSET_PIPELINE.md",
+      "bytes": 1429,
+      "sha256": "842b18c6c887a89542d04018b90f0218f71612abaaa6978f70e69dd7e6b41ea3"
+    },
+    {
+      "path": "docs/10_tech/CODING_STANDARDS.md",
+      "bytes": 1201,
+      "sha256": "e93a20b26402b0c58302ca4fe9a6135f3f8b7ec1d5dd0377039bb2c6d395d057"
+    },
+    {
+      "path": "docs/10_tech/COMMANDS_EVENTS.md",
+      "bytes": 2128,
+      "sha256": "0a2ee6895449c26c26eb715b91f9ae2a7ce247da204bd44586284f6e6df47371"
+    },
+    {
+      "path": "docs/10_tech/DATA_CONTRACTS.md",
+      "bytes": 1609,
+      "sha256": "e12c8989d2de561aa30b2dd1566470dc6df4f665070741fa0a14d40d928b3c67"
+    },
+    {
+      "path": "docs/10_tech/DEBUGGING.md",
+      "bytes": 1416,
+      "sha256": "3780efef407ef69a8af41c6efe602fbd8812638b73a79b2ff244b4620d898bda"
+    },
+    {
+      "path": "docs/10_tech/DEV_SETUP.md",
+      "bytes": 1309,
+      "sha256": "d10ef5440010922588dbb7bee7a3d470510327b62198aef1b3bfcf5421d5f1ec"
+    },
+    {
+      "path": "docs/10_tech/ERROR_RECOVERY.md",
+      "bytes": 1373,
+      "sha256": "cac65f74f15f6ae4d009471714ed57557f69c8902886d7af848ba5579f5b2137"
+    },
+    {
+      "path": "docs/10_tech/FOLDER_STRUCTURE.md",
+      "bytes": 1364,
+      "sha256": "a402b0943f3b3b59fd1bbd914e704c52c8839ca091622d56927bfcbf57d232d0"
+    },
+    {
+      "path": "docs/10_tech/MULTITAB.md",
+      "bytes": 1497,
+      "sha256": "9241056a9cd779e5273fa20b8832c30465eab989b4420fb86bef2c271f256f35"
+    },
+    {
+      "path": "docs/10_tech/OFFLINE_PWA.md",
+      "bytes": 1718,
+      "sha256": "533cd455dea44c8b813bd024eb528e4a5f7bc4b95a15fdc1d195a523597644c8"
+    },
+    {
+      "path": "docs/10_tech/PERFORMANCE_BUDGETS.md",
+      "bytes": 1331,
+      "sha256": "4d717b07acf4d6d35adf154eeddde526e0e316fd279f051ddc43af60bbed9ee2"
+    },
+    {
+      "path": "docs/10_tech/PLATFORM_SUPPORT.md",
+      "bytes": 1359,
+      "sha256": "152f39854bd8f2fdba854d6479c0bfc1b0b54fc9500a62985ff5fb5a58f19167"
+    },
+    {
+      "path": "docs/10_tech/REFERENCE_SOURCES.md",
+      "bytes": 2054,
+      "sha256": "a47a07709cd9dc791993f70647ef10bcd0c01fa99aa0984daee6eb0a47668490"
+    },
+    {
+      "path": "docs/10_tech/SAVE_MIGRATIONS.md",
+      "bytes": 1436,
+      "sha256": "2ea87a1691d38125ea58f9e4e14e6bfd32af6e6f433035bccb69927c3a1e42c9"
+    },
+    {
+      "path": "docs/10_tech/SAVE_SYSTEM.md",
+      "bytes": 1547,
+      "sha256": "7bcf0cd45df3fec2f33357fa4f0ee4e0fba78b0b52fabbb89fc59e199b9990b0"
+    },
+    {
+      "path": "docs/10_tech/SECURITY_PRIVACY.md",
+      "bytes": 1253,
+      "sha256": "2c99f698dfc1870fd50bf3e6910d3cda30cde09dca8ed322db1c3c75f5496716"
+    },
+    {
+      "path": "docs/10_tech/STATE_LIFECYCLE.md",
+      "bytes": 1501,
+      "sha256": "fdb820b0b0bb8e247c6274e5f35d57f2b38ad320893faee5e033b284f714c004"
+    },
+    {
+      "path": "docs/10_tech/TECH_STACK.md",
+      "bytes": 1771,
+      "sha256": "e463ab3d18bf0e9334103b4266f05efee9129a93f5189d5bc23084c1988d5e73"
+    },
+    {
+      "path": "docs/10_tech/TIME_AND_IDLE.md",
+      "bytes": 2169,
+      "sha256": "2b84902dd77b1a7eb35d3b94838bebc27757985197b6da6f875abcd79ee31684"
+    },
+    {
+      "path": "docs/11_ai/CHANGE_PROTOCOL.md",
+      "bytes": 1048,
+      "sha256": "53c0b2e342d474f132c4ef43db742614c0664f594762367cabafdd97c352810f"
+    },
+    {
+      "path": "docs/11_ai/CONTEXT_ROUTING.md",
+      "bytes": 1240,
+      "sha256": "f27b0eb022d96ba02c0a1c257c9325af454a6ea0bad31db50567832f2151fc09"
+    },
+    {
+      "path": "docs/11_ai/CURRENT_STATUS.md",
+      "bytes": 793,
+      "sha256": "ebe510ec6e1125ad8d3a631a06bec211d35c9028ce2e34d9511a6a8ea9d4269b"
+    },
+    {
+      "path": "docs/11_ai/WORKFLOW.md",
+      "bytes": 1356,
+      "sha256": "09cc4d4df85d2dbc22c4b88413d23514d74512831e33b6224033c990b86b4aeb"
+    },
+    {
+      "path": "docs/12_qa/BALANCE_PLAYTEST.md",
+      "bytes": 1107,
+      "sha256": "f1895344f3f9cb171ae08a6a6933f329ef76d83b4f694534e77c39a41dedccf1"
+    },
+    {
+      "path": "docs/12_qa/BUG_SEVERITY.md",
+      "bytes": 818,
+      "sha256": "f5efeddc1b172ca0d4fec107e2ed5a0ccfe5f921a595a80f8fbcbae707eec7b7"
+    },
+    {
+      "path": "docs/12_qa/DEVICE_MATRIX.md",
+      "bytes": 809,
+      "sha256": "aef991441e88cb2d4409e519d8067f5c7a12a6fca5f3956a48a588ce904f1a86"
+    },
+    {
+      "path": "docs/12_qa/PERFORMANCE_QA.md",
+      "bytes": 918,
+      "sha256": "3c29fa4cf052a0e6d2c151f87090ba79714270ef08b4bf5bd48e35bc1f1d01f0"
+    },
+    {
+      "path": "docs/12_qa/PUZZLE_TESTS.md",
+      "bytes": 1082,
+      "sha256": "2d2dbfd962134e822cba8254d6cfa137722ae98a4670f6dc4265b4419cfdb313"
+    },
+    {
+      "path": "docs/12_qa/SAVE_OFFLINE_TESTS.md",
+      "bytes": 1437,
+      "sha256": "d26cf197a5f97f0a6920fb7fc90ba9a595b3ae51e063861c7702cb5556f60fff"
+    },
+    {
+      "path": "docs/12_qa/TEST_CASES.csv",
+      "bytes": 2346,
+      "sha256": "e59c987ac5fe973f7d5a38ced3a090ff5ff7581a5b0893ef8b58dcc7212f7f3c"
+    },
+    {
+      "path": "docs/12_qa/TEST_PLAN.md",
+      "bytes": 995,
+      "sha256": "efa8524e650a5c4d585519ff4c92c2418729a4638bdebbae2664629a746015ce"
+    },
+    {
+      "path": "docs/12_qa/VISUAL_ACCESSIBILITY_QA.md",
+      "bytes": 894,
+      "sha256": "32c25740f99a5bd520e04de0e5c00164474d0358d79dd561e9f1272f212df030"
+    },
+    {
+      "path": "docs/13_production/ASSET_PRIORITY.md",
+      "bytes": 1108,
+      "sha256": "ce45403b5a6b07c7f08424b54a0470e88bd8dec91669e8e52859798ec828364d"
+    },
+    {
+      "path": "docs/13_production/BACKLOG.csv",
+      "bytes": 4983,
+      "sha256": "6353e8e7fa5188d1505394ae00e51d1c01244ec5eeb0b88c3c246339b8792c9b"
+    },
+    {
+      "path": "docs/13_production/CONTENT_EXPANSION_PLAN.md",
+      "bytes": 1357,
+      "sha256": "f4ed167b11d2645752ef103cc72302a440d14c3857cfbdc027ba7994497b300d"
+    },
+    {
+      "path": "docs/13_production/DEFINITION_OF_DONE.md",
+      "bytes": 1168,
+      "sha256": "61e904593fdd524ae1b57006e40423607f1e0721e2926781187a221e83b60638"
+    },
+    {
+      "path": "docs/13_production/RELEASE_RUNBOOK.md",
+      "bytes": 1441,
+      "sha256": "45bc5b407c531fdc579076e07e9682b43c1b962483a7f00013605a3e46a1fab6"
+    },
+    {
+      "path": "docs/13_production/RISKS.md",
+      "bytes": 1210,
+      "sha256": "1fe164609831255ae6110abfd51fbaaea433c2dbb3bb5d130f45a6ba14319cfc"
+    },
+    {
+      "path": "docs/13_production/ROADMAP.md",
+      "bytes": 1140,
+      "sha256": "64b8584d4996e80dc9c1b0f3311bc43f6c5401f780e0dd5238cf175673faa978"
+    },
+    {
+      "path": "docs/README.md",
+      "bytes": 1666,
+      "sha256": "d97188a5a34f0c605d167f71305ef10f8fb8c0f3c0f4520d0491cb5d681a7adc"
+    },
+    {
+      "path": "fixtures/README.md",
+      "bytes": 624,
+      "sha256": "5566dbafa70f88fdafe2e87525004f2cd0c8159c8c5c0f2aa725daf4b296715a"
+    },
+    {
+      "path": "fixtures/invalid/duplicate_claim.json",
+      "bytes": 1257,
+      "sha256": "9fdd7ad6cf770f09a429b73ed095ab95f41a73a82e47a888369bc915fd47f723"
+    },
+    {
+      "path": "fixtures/invalid/future_version.json",
+      "bytes": 1205,
+      "sha256": "8cefc4162e7441fe4fa09afb2582a8aedd3ef350c46044389c4e18ca3352c802"
+    },
+    {
+      "path": "fixtures/invalid/malformed.json",
+      "bytes": 13,
+      "sha256": "c3e7d1b00a65589b59f816c0b0b668d795a3c28123697d5ab9555bdb8aa04604"
+    },
+    {
+      "path": "fixtures/invalid/negative_coins.json",
+      "bytes": 1203,
+      "sha256": "141cf009f3e0a84160b947ffcdaad556ce0b11f67225c2e7f33e15eeac2b465a"
+    },
+    {
+      "path": "fixtures/invalid/unknown_item.json",
+      "bytes": 1226,
+      "sha256": "b39f93d4008a73d4f07e0f01f03f230481e2572bf0c114014460538c3dbc6c6e"
+    },
+    {
+      "path": "fixtures/save_growing_v2.json",
+      "bytes": 1324,
+      "sha256": "f9f1a307af91483ab7caec67f75f64ceece2df5c82f189d24a2f965af6b16509"
+    },
+    {
+      "path": "fixtures/save_legacy_v1.json",
+      "bytes": 124,
+      "sha256": "0b0fd462815387d85eb62d85800e42f2abba18f44972d4955be2b6fe13c77c7f"
+    },
+    {
+      "path": "fixtures/save_migrated_v2_expected.json",
+      "bytes": 1187,
+      "sha256": "042811fde7410407423668e0abe8e7633749e8508dc2dbd6d0e12498f3cd126e"
+    },
+    {
+      "path": "fixtures/save_new_v2.json",
+      "bytes": 1203,
+      "sha256": "744a7f584c4c092c9e17e90916e1cbb23a64060cbed860a2c1c5a84e62625f50"
+    },
+    {
+      "path": "fixtures/time_cases.json",
+      "bytes": 837,
+      "sha256": "7c8950b0490ce900a3a24e6b0e2fe52a38ce49566f4b77c1d17138d84b3e3a09"
+    },
+    {
+      "path": "prompts/coding/00_MASTER_CODING.md",
+      "bytes": 982,
+      "sha256": "6bbd20251d6c407f181c600ad994a432176bd1aeaa3c65ce5baaa12a8fea2f30"
+    },
+    {
+      "path": "prompts/coding/01_BOOTSTRAP_PROJECT.md",
+      "bytes": 1204,
+      "sha256": "d61f66aac56efa454282ad8205e60e4703582318fbd20b2681d25ed283fbd0b5"
+    },
+    {
+      "path": "prompts/coding/02_PLAN_FEATURE.md",
+      "bytes": 637,
+      "sha256": "ee159cac1779ec754fc18175a5b7e3c361c079ed7a8bd646301415e67bcc3e7c"
+    },
+    {
+      "path": "prompts/coding/03_IMPLEMENT_FEATURE.md",
+      "bytes": 822,
+      "sha256": "ccb1ebd5195daacbd5cb39e277b4082d7d8b749f0809f2bc602cd89052d10b41"
+    },
+    {
+      "path": "prompts/coding/04_DEBUG_BUG.md",
+      "bytes": 627,
+      "sha256": "6901d3ce59a478645917c7d10cca7f1f6796576b51ea26364f76af4288f81113"
+    },
+    {
+      "path": "prompts/coding/05_REVIEW_CHANGE.md",
+      "bytes": 609,
+      "sha256": "5a4ca5fdf2f6ef95e16bb836ac38ca0a7dbaea578d51c7e68ab3f892cc48e7a6"
+    },
+    {
+      "path": "prompts/coding/06_TEST_FEATURE.md",
+      "bytes": 627,
+      "sha256": "2484e13434dbb46f7e06c6bcbbe410618cdadde00da76d3950eb5cdb2f42d197"
+    },
+    {
+      "path": "prompts/coding/07_CONTENT_AUTHORING.md",
+      "bytes": 645,
+      "sha256": "47aa1a56450fbbab5841780b6f54104dbe138d5db4fc1015afca47fd67184289"
+    },
+    {
+      "path": "prompts/coding/08_ASSET_INTEGRATION.md",
+      "bytes": 581,
+      "sha256": "f949745b81dde23e19fc53e7ddcb7b42508d0bb9b8ee63c958281292cceddf2e"
+    },
+    {
+      "path": "prompts/coding/09_REFACTOR.md",
+      "bytes": 595,
+      "sha256": "a6f86e409d52a843199b9f0a0d342f073390bb2fb762f6c6322db863395ee1a5"
+    },
+    {
+      "path": "prompts/coding/10_RELEASE_CHECK.md",
+      "bytes": 625,
+      "sha256": "80ed7e7171a33a3b987bc54bc31e729807303da12b0c06b066327cedbf4e2098"
+    },
+    {
+      "path": "prompts/coding/11_HANDOFF.md",
+      "bytes": 525,
+      "sha256": "3671c2015225eb2b167c767a26442250d5e447303ba8d04577cc6f15a997e35b"
+    },
+    {
+      "path": "prompts/writing/LOCALIZATION_REVIEW.md",
+      "bytes": 443,
+      "sha256": "59ceb13d755fa7cc964a0ea4f1db0562b38ec6066ded9da12badfa8c80b9111d"
+    },
+    {
+      "path": "prompts/writing/STORY_WRITER.md",
+      "bytes": 607,
+      "sha256": "dbbff6b3f05382ed13d86549f710a00b1e304272267173ec53752257440b70bd"
+    },
+    {
+      "path": "reports/economy_baseline.csv",
+      "bytes": 291,
+      "sha256": "8302ac5835478a7ae17baad26a8ec5617e2e7274525d77d297bbbf8ed1d6db30"
+    },
+    {
+      "path": "reports/reference_checks.txt",
+      "bytes": 238,
+      "sha256": "ed9e9b69e899f3b912007704c1b3cef78d6746fca6850fdd7a0afa168f972eb1"
+    },
+    {
+      "path": "reports/validation.json",
+      "bytes": 231,
+      "sha256": "fff6a0a0ba9e983ec7547294d92124e87e6b53816c049d0aaac21f0d9b05c2f5"
+    },
+    {
+      "path": "schemas/README.md",
+      "bytes": 947,
+      "sha256": "dcfa0cb018eaa917ac58c45177769f48cf1bf8d2d7a9c44f69c7f2902f9bd9e9"
+    },
+    {
+      "path": "schemas/animation_specs.schema.json",
+      "bytes": 1542,
+      "sha256": "b2440e94c08c008f100e26926527f2bf6b512bbbca7ab34bb72dfa079f7ac7ea"
+    },
+    {
+      "path": "schemas/asset_categories.schema.json",
+      "bytes": 158,
+      "sha256": "2090a16adc32cdaa9d86cd5857e928ad832bad9769a352d682e21b8841e08021"
+    },
+    {
+      "path": "schemas/asset_registry.schema.json",
+      "bytes": 2390,
+      "sha256": "4ad0ff7c238d051ee537c813ab3c2b383b8c700f348d78fd9c5513477ce70e6c"
+    },
+    {
+      "path": "schemas/audio_registry.schema.json",
+      "bytes": 1963,
+      "sha256": "4a177deb63cf79218f8e27851966a44659e5bc9920e78f3de9ac376d57d2d7c7"
+    },
+    {
+      "path": "schemas/catalog.json",
+      "bytes": 1855,
+      "sha256": "44cf9bdc4cbc48b529b8c983d94c027d329bd090368d0c9bc4561b8f833b6002"
+    },
+    {
+      "path": "schemas/config.schema.json",
+      "bytes": 1928,
+      "sha256": "380ef1a9c4914edc8cd70ddd2151972df57f29796cab9fa5c9bef12c23a0db1c"
+    },
+    {
+      "path": "schemas/dialogues.schema.json",
+      "bytes": 693,
+      "sha256": "03e7a3347ef2981b00250ec5645180d739e05582e75c508a77978dcb870c263a"
+    },
+    {
+      "path": "schemas/fish.schema.json",
+      "bytes": 874,
+      "sha256": "9cfcf62fda6e99920c2b54690b0941df6f25ccd2c64f43338e0f9b0e84e5fe13"
+    },
+    {
+      "path": "schemas/flags.schema.json",
+      "bytes": 931,
+      "sha256": "d92ebe7ea311f162575e092c1a155dd34b3ce8a8f3ef5902a100f164f7e0dd2d"
+    },
+    {
+      "path": "schemas/flowers.schema.json",
+      "bytes": 1358,
+      "sha256": "3ccbcfc3d6a3b911412ba2e942f7347129856b46093ab6dadb9f9f1853a9fbbe"
+    },
+    {
+      "path": "schemas/furniture.schema.json",
+      "bytes": 1290,
+      "sha256": "51244f35e85b1560796d80066132195e8649692a3e83e7839ab6112fdd09886a"
+    },
+    {
+      "path": "schemas/items.schema.json",
+      "bytes": 1172,
+      "sha256": "13a6117b5c88bc61abf946bcf2871363ac6f2254ccdce648d4bc98b975f0c106"
+    },
+    {
+      "path": "schemas/livestock.schema.json",
+      "bytes": 1120,
+      "sha256": "08dac6fe652bcc0b41effd35da93d09112be5ba458199c1de55682ff926835dd"
+    },
+    {
+      "path": "schemas/localization.schema.json",
+      "bytes": 165,
+      "sha256": "e7396b81afa8d9cc925771932c4dd4ce2d8c88a2fafc330c597134ab5f0aeac8"
+    },
+    {
+      "path": "schemas/map.schema.json",
+      "bytes": 4587,
+      "sha256": "f0ad417a59c5d51e5a8bcd9de658d865af2f40f91941e4a99051524e66136637"
+    },
+    {
+      "path": "schemas/neighbors.schema.json",
+      "bytes": 1203,
+      "sha256": "78a874ecccc2c59ec0ee5af276810a0cf8254a86a8782b7667162f7b13315c08"
+    },
+    {
+      "path": "schemas/personalization.schema.json",
+      "bytes": 608,
+      "sha256": "2ca7a0d4320961d75d0388b60089c49ba429f9a235c54fd3dc541a2a2b659edd"
+    },
+    {
+      "path": "schemas/pets.schema.json",
+      "bytes": 1031,
+      "sha256": "593884f742cc12fac6a8652342234c3633282cba5032b8c6b1e98a2c2b913287"
+    },
+    {
+      "path": "schemas/puzzle_symbols.schema.json",
+      "bytes": 475,
+      "sha256": "b1cfb348274893c2743176716839a6591fcf8bbf49347c6e5ec19bcd5ffa45b2"
+    },
+    {
+      "path": "schemas/puzzles.schema.json",
+      "bytes": 8845,
+      "sha256": "fab3cdac32f8fda3eedc63832fe366aab7519fff44194379905add79243de665"
+    },
+    {
+      "path": "schemas/quests.schema.json",
+      "bytes": 2525,
+      "sha256": "0a1dd6bee0e42a679fa4b88fb83dc48b2da5025986238d3fe329c3981152fcba"
+    },
+    {
+      "path": "schemas/recipes.schema.json",
+      "bytes": 1403,
+      "sha256": "73da3833aa1f7d77c46351c3dfeac3b4bc5835b30e664a8b25d8cfd87b8e0996"
+    },
+    {
+      "path": "schemas/request.schema.json",
+      "bytes": 1357,
+      "sha256": "6ee0391e6ec54fe49cc5a63eb264e0614ccfceb67e40ba6fa4ecb732b254fe9a"
+    },
+    {
+      "path": "schemas/save.schema.json",
+      "bytes": 12268,
+      "sha256": "3072c4993c21363bebe464cc413684d1e59f76dae229b0ce0c650c40e2fffb75"
+    },
+    {
+      "path": "schemas/save_v1.schema.json",
+      "bytes": 720,
+      "sha256": "87fb9592dbc8fed6aac3e35eae86513c850767368b84f58a002fcabdf2b1cf3b"
+    },
+    {
+      "path": "schemas/time_cases.schema.json",
+      "bytes": 645,
+      "sha256": "8d46305933f1fc178f226f4119154890120dabaf582a1949056a04703d4ad025"
+    },
+    {
+      "path": "schemas/ui_tokens.schema.json",
+      "bytes": 895,
+      "sha256": "ebd11618c0d0616736fc693e96f8b2752d0ad687235cf5d39f4e18b6bf3b031e"
+    },
+    {
+      "path": "schemas/upgrades.schema.json",
+      "bytes": 1424,
+      "sha256": "f78490f9e6ffefffce24247bb75bb866592f169325c718890ad2eb8996bb9c24"
+    },
+    {
+      "path": "schemas/zones.schema.json",
+      "bytes": 914,
+      "sha256": "fcb607c31e556095f23c6ceb1e09764f8eadda972b703aac14d92f56d717f668"
+    },
+    {
+      "path": "templates/ADR.md",
+      "bytes": 307,
+      "sha256": "6da0ac42fe268b6942614f7db6ad940463b26abd4c1f82e5516dda219b1c8375"
+    },
+    {
+      "path": "templates/ASSET_REQUEST.md",
+      "bytes": 384,
+      "sha256": "84aee58141a118837eaab5accccf63316ad887beba15832633468c1ad0d59d9f"
+    },
+    {
+      "path": "templates/BUG_REPORT.md",
+      "bytes": 272,
+      "sha256": "fded9b0d7538e4421f58ec4fce97eac194e9fc9e82545f1ccfaac89afbc7e62e"
+    },
+    {
+      "path": "templates/FEATURE_SPEC.md",
+      "bytes": 497,
+      "sha256": "b26d059b69add0d64dc9518fa71a866b8213830b1dfc26c6a3768380f9432461"
+    },
+    {
+      "path": "templates/HANDOFF.md",
+      "bytes": 292,
+      "sha256": "7684831ef3a61a9a9707e1ad7c19fab8570c48253c3a332427eb5c2c3c136ef7"
+    },
+    {
+      "path": "templates/PERSONAL_LETTER.md",
+      "bytes": 368,
+      "sha256": "4103b3bbd507a22fd9d8b731ba31d5d3da15cb214aa2904ad2a80b1088a25edb"
+    },
+    {
+      "path": "templates/RELEASE_REPORT.md",
+      "bytes": 361,
+      "sha256": "aba9325ec013ec00a109285939fdead84706398f915434b3e35566e5e3bc2458"
+    },
+    {
+      "path": "templates/TASK.md",
+      "bytes": 205,
+      "sha256": "b7bcff79c843f9797e4d82e9d908ac28108b0fc8d6f61dc3eefeb58f5e269296"
+    },
+    {
+      "path": "tools/README.md",
+      "bytes": 907,
+      "sha256": "e9235a2b226bab16af3111ddb20a3808d04060e1fc21b3d2ea93bde9528f1037"
+    },
+    {
+      "path": "tools/compose_asset_prompt.py",
+      "bytes": 1912,
+      "sha256": "951d3356384005c96b6ef1cdb26210c4044114d71c50255c74b0ccad6bf08316"
+    },
+    {
+      "path": "tools/economy_report.py",
+      "bytes": 667,
+      "sha256": "8c17579c18defccd30fb4432d4286aa1c180c370f7900764b0e357c1b8453cc8"
+    },
+    {
+      "path": "tools/reference_checks.py",
+      "bytes": 2713,
+      "sha256": "c9c9b33f9647ffd767ba6d7f2203110dd564c73757c3e4ab3653f6f2b2e42b93"
+    },
+    {
+      "path": "tools/validate_pack.py",
+      "bytes": 15328,
+      "sha256": "c8bf39513d77c3a3316ad256b6af5eed630d575fc1b2290fd386f27381b3d2ef"
+    }
+  ]
+}

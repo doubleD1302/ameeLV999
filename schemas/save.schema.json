@@ -1,0 +1,538 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "save",
+  "type": "object",
+  "properties": {
+    "schemaVersion": {
+      "const": 2
+    },
+    "contentVersion": {
+      "type": "string",
+      "minLength": 1
+    },
+    "revision": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "savedAtWallMs": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "simTimeMs": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "coins": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "inventory": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "integer",
+        "minimum": 0
+      },
+      "propertyNames": {
+        "pattern": "^[a-z][a-z0-9_]*$"
+      }
+    },
+    "plots": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9_]*$"
+          },
+          "crop": {
+            "oneOf": [
+              {
+                "type": "object",
+                "properties": {
+                  "uid": {
+                    "type": "string",
+                    "pattern": "^[a-z][a-z0-9_]*$"
+                  },
+                  "flowerId": {
+                    "type": "string",
+                    "pattern": "^[a-z][a-z0-9_]*$"
+                  },
+                  "plantedAtSimMs": {
+                    "type": "integer",
+                    "minimum": 0
+                  },
+                  "readyAtSimMs": {
+                    "type": "integer",
+                    "minimum": 0
+                  }
+                },
+                "required": [
+                  "uid",
+                  "flowerId",
+                  "plantedAtSimMs",
+                  "readyAtSimMs"
+                ],
+                "additionalProperties": false
+              },
+              {
+                "type": "null"
+              }
+            ]
+          }
+        },
+        "required": [
+          "id",
+          "crop"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 1
+    },
+    "upgrades": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z][a-z0-9_]*$"
+      },
+      "uniqueItems": true
+    },
+    "flags": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z][a-z0-9_]*$"
+      },
+      "uniqueItems": true
+    },
+    "claimedRewards": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true
+    },
+    "completedQuests": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z][a-z0-9_]*$"
+      },
+      "uniqueItems": true
+    },
+    "questCounters": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "integer",
+        "minimum": 0
+      },
+      "propertyNames": {
+        "pattern": "^[a-z][a-z0-9_]*$"
+      }
+    },
+    "puzzleProgress": {
+      "type": "object",
+      "additionalProperties": {
+        "oneOf": [
+          {
+            "type": "object",
+            "properties": {
+              "engineVersion": {
+                "const": 1
+              },
+              "status": {
+                "enum": [
+                  "in_progress",
+                  "solved",
+                  "assisted"
+                ]
+              },
+              "moves": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "hintTier": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 3
+              },
+              "engine": {
+                "const": "memory"
+              },
+              "state": {
+                "type": "object",
+                "properties": {
+                  "matched": {
+                    "type": "array",
+                    "items": {
+                      "type": "integer",
+                      "minimum": 0
+                    },
+                    "uniqueItems": true
+                  },
+                  "faceUp": {
+                    "type": "array",
+                    "items": {
+                      "type": "integer",
+                      "minimum": 0
+                    },
+                    "maxItems": 2,
+                    "uniqueItems": true
+                  }
+                },
+                "required": [
+                  "matched",
+                  "faceUp"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "required": [
+              "engineVersion",
+              "status",
+              "moves",
+              "hintTier",
+              "engine",
+              "state"
+            ],
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "properties": {
+              "engineVersion": {
+                "const": 1
+              },
+              "status": {
+                "enum": [
+                  "in_progress",
+                  "solved",
+                  "assisted"
+                ]
+              },
+              "moves": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "hintTier": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 3
+              },
+              "engine": {
+                "const": "sliding"
+              },
+              "state": {
+                "type": "object",
+                "properties": {
+                  "tiles": {
+                    "type": "array",
+                    "items": {
+                      "type": "integer",
+                      "minimum": 0
+                    }
+                  }
+                },
+                "required": [
+                  "tiles"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "required": [
+              "engineVersion",
+              "status",
+              "moves",
+              "hintTier",
+              "engine",
+              "state"
+            ],
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "properties": {
+              "engineVersion": {
+                "const": 1
+              },
+              "status": {
+                "enum": [
+                  "in_progress",
+                  "solved",
+                  "assisted"
+                ]
+              },
+              "moves": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "hintTier": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 3
+              },
+              "engine": {
+                "const": "pipe_rotation"
+              },
+              "state": {
+                "type": "object",
+                "properties": {
+                  "rotations": {
+                    "type": "array",
+                    "items": {
+                      "type": "integer",
+                      "minimum": 0,
+                      "maximum": 3
+                    }
+                  }
+                },
+                "required": [
+                  "rotations"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "required": [
+              "engineVersion",
+              "status",
+              "moves",
+              "hintTier",
+              "engine",
+              "state"
+            ],
+            "additionalProperties": false
+          }
+        ]
+      },
+      "propertyNames": {
+        "pattern": "^[a-z][a-z0-9_]*$"
+      }
+    },
+    "decor": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9_]*$"
+          },
+          "itemId": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9_]*$"
+          },
+          "zoneId": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9_]*$"
+          },
+          "x": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "y": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "rotation": {
+            "enum": [
+              0,
+              90,
+              180,
+              270
+            ]
+          }
+        },
+        "required": [
+          "id",
+          "itemId",
+          "zoneId",
+          "x",
+          "y",
+          "rotation"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "relationships": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "points": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 100
+          },
+          "nextTalkAtSimMs": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "nextGiftAtSimMs": {
+            "type": "integer",
+            "minimum": 0
+          }
+        },
+        "required": [
+          "points",
+          "nextTalkAtSimMs",
+          "nextGiftAtSimMs"
+        ],
+        "additionalProperties": false
+      },
+      "propertyNames": {
+        "pattern": "^[a-z][a-z0-9_]*$"
+      }
+    },
+    "pets": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "petId": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9_]*$"
+          },
+          "name": {
+            "type": "string",
+            "maxLength": 96
+          },
+          "follow": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "petId",
+          "name",
+          "follow"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "clearedDebris": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z][a-z0-9_]*$"
+      },
+      "uniqueItems": true
+    },
+    "receipts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "commandId": {
+            "type": "string",
+            "minLength": 1
+          },
+          "revision": {
+            "type": "integer",
+            "minimum": 0
+          }
+        },
+        "required": [
+          "commandId",
+          "revision"
+        ],
+        "additionalProperties": false
+      },
+      "maxItems": 256
+    },
+    "rngState": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "settings": {
+      "type": "object",
+      "properties": {
+        "music": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "sfx": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "ambience": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "reducedMotion": {
+          "type": "boolean"
+        },
+        "textScale": {
+          "enum": [
+            1,
+            1.25,
+            1.5
+          ]
+        }
+      },
+      "required": [
+        "music",
+        "sfx",
+        "ambience",
+        "reducedMotion",
+        "textScale"
+      ],
+      "additionalProperties": false
+    },
+    "player": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "maxLength": 96
+        },
+        "zoneId": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9_]*$"
+        },
+        "x": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "y": {
+          "type": "integer",
+          "minimum": 0
+        }
+      },
+      "required": [
+        "name",
+        "zoneId",
+        "x",
+        "y"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "schemaVersion",
+    "contentVersion",
+    "revision",
+    "savedAtWallMs",
+    "simTimeMs",
+    "coins",
+    "inventory",
+    "plots",
+    "upgrades",
+    "flags",
+    "claimedRewards",
+    "completedQuests",
+    "questCounters",
+    "puzzleProgress",
+    "decor",
+    "relationships",
+    "pets",
+    "clearedDebris",
+    "receipts",
+    "rngState",
+    "settings",
+    "player"
+  ],
+  "additionalProperties": false
+}

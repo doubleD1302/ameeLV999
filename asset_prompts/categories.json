@@ -1,0 +1,22 @@
+{
+  "characters": "asset_prompts/02_CHARACTERS/CHARACTER_MASTER_PROMPT.md",
+  "pets": "asset_prompts/03_PETS/PET_MASTER_PROMPT.md",
+  "npcs": "asset_prompts/04_NPCS/NPC_MASTER_PROMPT.md",
+  "items": "asset_prompts/05_ITEMS/ITEM_MASTER_PROMPT.md",
+  "flowers_plants": "asset_prompts/06_FLOWERS_PLANTS/FLOWER_MASTER_PROMPT.md",
+  "animals": "asset_prompts/07_ANIMALS_LIVESTOCK/ANIMAL_MASTER_PROMPT.md",
+  "buildings": "asset_prompts/08_BUILDINGS/BUILDING_MASTER_PROMPT.md",
+  "environment": "asset_prompts/09_ENVIRONMENT/ENVIRONMENT_MASTER_PROMPT.md",
+  "maps": "asset_prompts/10_MAPS/MAP_MASTER_PROMPT.md",
+  "furniture": "asset_prompts/11_FURNITURE_DECOR/FURNITURE_MASTER_PROMPT.md",
+  "ui": "asset_prompts/12_UI/UI_MASTER_PROMPT.md",
+  "icons": "asset_prompts/13_ICONS/ICON_MASTER_PROMPT.md",
+  "effects": "asset_prompts/14_EFFECTS/VFX_MASTER_PROMPT.md",
+  "puzzle_assets": "asset_prompts/15_PUZZLE_ASSETS/PUZZLE_MASTER_PROMPT.md",
+  "story_assets": "asset_prompts/16_STORY_ASSETS/STORY_MASTER_PROMPT.md",
+  "animation": "asset_prompts/17_ANIMATION/ANIMATION_MASTER_PROMPT.md",
+  "variations": "asset_prompts/18_VARIATIONS/VARIATION_MASTER_PROMPT.md",
+  "qa": "asset_prompts/19_QA/ASSET_QA_SYSTEM_PROMPT.md",
+  "batch": "asset_prompts/20_BATCH_GENERATION/BATCH_SYSTEM_PROMPT.md",
+  "audio": "asset_prompts/21_AUDIO/AUDIO_MASTER_PROMPT.md"
+}

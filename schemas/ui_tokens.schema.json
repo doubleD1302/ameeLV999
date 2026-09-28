@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ui_tokens",
+  "type": "object",
+  "properties": {
+    "colors": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string",
+        "pattern": "^#[0-9A-Fa-f]{6}$"
+      },
+      "propertyNames": {
+        "pattern": "^[a-z][a-z0-9_]*$"
+      }
+    },
+    "fontSizeBody": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "touchTarget": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "spacingUnit": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "panelRadius": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "maxDevicePixelRatio": {
+      "type": "integer",
+      "minimum": 1
+    }
+  },
+  "required": [
+    "colors",
+    "fontSizeBody",
+    "touchTarget",
+    "spacingUnit",
+    "panelRadius",
+    "maxDevicePixelRatio"
+  ],
+  "additionalProperties": false
+}

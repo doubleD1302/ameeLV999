@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 999,
+  "contentVersion": "0.1.0",
+  "revision": 0,
+  "savedAtWallMs": 1000000,
+  "simTimeMs": 0,
+  "coins": 40,
+  "inventory": {
+    "seed_daisy": 4,
+    "seed_tulip": 2
+  },
+  "plots": [
+    {
+      "id": "plot_01",
+      "crop": null
+    },
+    {
+      "id": "plot_02",
+      "crop": null
+    },
+    {
+      "id": "plot_03",
+      "crop": null
+    },
+    {
+      "id": "plot_04",
+      "crop": null
+    },
+    {
+      "id": "plot_05",
+      "crop": null
+    },
+    {
+      "id": "plot_06",
+      "crop": null
+    },
+    {
+      "id": "plot_07",
+      "crop": null
+    },
+    {
+      "id": "plot_08",
+      "crop": null
+    }
+  ],
+  "upgrades": [],
+  "flags": [],
+  "claimedRewards": [],
+  "completedQuests": [],
+  "questCounters": {},
+  "puzzleProgress": {},
+  "decor": [],
+  "relationships": {
+    "lily": {
+      "points": 0,
+      "nextTalkAtSimMs": 0,
+      "nextGiftAtSimMs": 0
+    }
+  },
+  "pets": [],
+  "clearedDebris": [],
+  "receipts": [],
+  "rngState": 20260928,
+  "settings": {
+    "music": 0.5,
+    "sfx": 0.6,
+    "ambience": 0.4,
+    "reducedMotion": false,
+    "textScale": 1
+  },
+  "player": {
+    "name": "",
+    "zoneId": "cottage",
+    "x": 12,
+    "y": 15
+  }
+}

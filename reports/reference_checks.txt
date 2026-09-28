@@ -1,0 +1,2 @@
+PASS: 7 time boundaries + duplicate resume; migration exact; crop threshold; no offline auto-harvest; claim idempotency; negative pipe oracle.
+Scope: reference rules only. Browser lifecycle, IndexedDB concurrency and runtime are NOT_RUN.

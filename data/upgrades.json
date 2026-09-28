@@ -1,0 +1,49 @@
+[
+  {
+    "id": "repair_window",
+    "name": "Sửa cửa sổ",
+    "phase": "P0",
+    "prerequisites": [],
+    "coins": 60,
+    "items": {
+      "wood": 4
+    },
+    "grantsFlags": [
+      "window_repaired"
+    ],
+    "unlocksPlots": 4
+  },
+  {
+    "id": "repair_fence",
+    "name": "Sửa hàng rào",
+    "phase": "P1",
+    "prerequisites": [
+      "repair_window"
+    ],
+    "coins": 120,
+    "items": {
+      "wood": 8
+    },
+    "grantsFlags": [
+      "fence_repaired"
+    ],
+    "unlocksPlots": 8
+  },
+  {
+    "id": "restore_greenhouse",
+    "name": "Sửa ngoại thất nhà kính",
+    "phase": "P1",
+    "prerequisites": [
+      "repair_fence"
+    ],
+    "coins": 320,
+    "items": {
+      "wood": 12,
+      "stone": 8
+    },
+    "grantsFlags": [
+      "greenhouse_exterior"
+    ],
+    "unlocksPlots": 8
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "id": "simple_bouquet",
+    "name": "Bó hoa giản dị",
+    "phase": "P2",
+    "unlockFlag": "workshop_open",
+    "inputs": {
+      "flower_daisy": 3,
+      "flower_tulip": 1
+    },
+    "outputs": {
+      "bouquet_simple": 1
+    },
+    "durationSeconds": 300
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "id": "momo",
+    "name": "Momo",
+    "species": "cat",
+    "phase": "P0",
+    "assetPrefix": "pet_momo",
+    "bonusEnabled": false,
+    "unlockFlag": "window_repaired"
+  },
+  {
+    "id": "tofu",
+    "name": "Tofu",
+    "species": "dog",
+    "phase": "P2",
+    "assetPrefix": "pet_tofu",
+    "bonusEnabled": false,
+    "unlockFlag": "barn_restored"
+  },
+  {
+    "id": "snow",
+    "name": "Snow",
+    "species": "rabbit",
+    "phase": "P2",
+    "assetPrefix": "pet_snow",
+    "bonusEnabled": false,
+    "unlockFlag": "barn_restored"
+  },
+  {
+    "id": "pip",
+    "name": "Pip",
+    "species": "duck",
+    "phase": "P2",
+    "assetPrefix": "pet_pip",
+    "bonusEnabled": false,
+    "unlockFlag": "barn_restored"
+  }
+]

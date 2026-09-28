@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "dialogues",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "string",
+        "pattern": "^[a-z][a-z0-9_]*$"
+      },
+      "speaker": {
+        "type": "string",
+        "pattern": "^[a-z][a-z0-9_]*$"
+      },
+      "textKey": {
+        "type": "string",
+        "minLength": 1
+      },
+      "phase": {
+        "type": "string",
+        "enum": [
+          "P0",
+          "P1",
+          "P2",
+          "P3"
+        ]
+      }
+    },
+    "required": [
+      "id",
+      "speaker",
+      "textKey",
+      "phase"
+    ],
+    "additionalProperties": false
+  }
+}

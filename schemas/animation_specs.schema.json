@@ -1,0 +1,85 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "string",
+        "minLength": 1
+      },
+      "phase": {
+        "enum": [
+          "P0",
+          "P1",
+          "P2",
+          "P3"
+        ]
+      },
+      "action": {
+        "enum": [
+          "idle",
+          "walk",
+          "sleep",
+          "interact"
+        ]
+      },
+      "direction": {
+        "enum": [
+          "n",
+          "e",
+          "s",
+          "w"
+        ]
+      },
+      "frameIds": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "minLength": 1
+        },
+        "minItems": 1,
+        "uniqueItems": true
+      },
+      "frameRate": {
+        "type": "integer",
+        "minimum": 1
+      },
+      "loop": {
+        "type": "boolean"
+      },
+      "anchorX": {
+        "type": "number",
+        "minimum": 0,
+        "maximum": 1
+      },
+      "anchorY": {
+        "type": "number",
+        "minimum": 0,
+        "maximum": 1
+      },
+      "normalizedFrameWidth": {
+        "type": "integer",
+        "minimum": 1
+      },
+      "normalizedFrameHeight": {
+        "type": "integer",
+        "minimum": 1
+      }
+    },
+    "required": [
+      "id",
+      "phase",
+      "action",
+      "direction",
+      "frameIds",
+      "frameRate",
+      "loop",
+      "anchorX",
+      "anchorY",
+      "normalizedFrameWidth",
+      "normalizedFrameHeight"
+    ],
+    "additionalProperties": false
+  }
+}

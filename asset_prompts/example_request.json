@@ -1,0 +1,14 @@
+{
+  "assetId": "flower_daisy_bloom",
+  "subject": "One white daisy with a yellow center and two simple sage leaves",
+  "state": "full bloom, no pot, no extra flowers",
+  "category": "flowers_plants",
+  "targetWidth": 512,
+  "targetHeight": 512,
+  "alpha": true,
+  "anchor": "bottom-center at root ground contact",
+  "referenceIds": [],
+  "outputCount": 1,
+  "styleVersion": "bh_1_0",
+  "phase": "P0"
+}

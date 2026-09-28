@@ -1,0 +1,67 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "items",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "string",
+        "pattern": "^[a-z][a-z0-9_]*$"
+      },
+      "name": {
+        "type": "string",
+        "minLength": 1
+      },
+      "kind": {
+        "enum": [
+          "seed",
+          "flower",
+          "material",
+          "decor",
+          "fish",
+          "product",
+          "food",
+          "story"
+        ]
+      },
+      "phase": {
+        "type": "string",
+        "enum": [
+          "P0",
+          "P1",
+          "P2",
+          "P3"
+        ]
+      },
+      "buyPrice": {
+        "oneOf": [
+          {
+            "type": "integer",
+            "minimum": 0
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "sellPrice": {
+        "type": "integer",
+        "minimum": 0
+      },
+      "sellable": {
+        "type": "boolean"
+      }
+    },
+    "required": [
+      "id",
+      "name",
+      "kind",
+      "phase",
+      "buyPrice",
+      "sellPrice",
+      "sellable"
+    ],
+    "additionalProperties": false
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "string",
+        "minLength": 1
+      },
+      "kind": {
+        "enum": [
+          "music",
+          "sfx",
+          "ambience"
+        ]
+      },
+      "phase": {
+        "enum": [
+          "P0",
+          "P1",
+          "P2",
+          "P3"
+        ]
+      },
+      "targetMaxDurationMs": {
+        "type": "integer",
+        "minimum": 1
+      },
+      "loop": {
+        "type": "boolean"
+      },
+      "status": {
+        "enum": [
+          "planned",
+          "generated",
+          "approved",
+          "rejected"
+        ]
+      },
+      "relativeFile": {
+        "oneOf": [
+          {
+            "type": "string",
+            "minLength": 1
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "promptPath": {
+        "type": "string",
+        "minLength": 1
+      },
+      "sourceTool": {
+        "oneOf": [
+          {
+            "type": "string",
+            "minLength": 1
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "rightsNote": {
+        "type": "string",
+        "minLength": 1
+      },
+      "sha256": {
+        "oneOf": [
+          {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$"
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "measuredDurationMs": {
+        "oneOf": [
+          {
+            "type": "integer",
+            "minimum": 1
+          },
+          {
+            "type": "null"
+          }
+        ]
+      }
+    },
+    "required": [
+      "id",
+      "kind",
+      "phase",
+      "targetMaxDurationMs",
+      "loop",
+      "status",
+      "relativeFile",
+      "promptPath",
+      "sourceTool",
+      "rightsNote",
+      "sha256",
+      "measuredDurationMs"
+    ],
+    "additionalProperties": false
+  }
+}

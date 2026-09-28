@@ -1,0 +1,21 @@
+id,requirement,phase,title,fixture,steps,expected,method
+QA001,R04,P0,Trồng và harvest,save_new_v2,Plant 1 daisy; advance 120 s; harvest; reload,"Seed-1,flower+1,plot empty,không nhận trùng",unit+browser
+QA002,R01,P0,Offline cap,time_cases,Resume sau 72 h,"Credit đúng 8 h,một lứa hoa",unit
+QA003,R01,P0,Clock lùi,time_cases,nowWall<anchor,"Credit0,anchor mới,không lỗi",unit
+QA004,R01,P0,Save atomic,save_growing_v2,Abort transaction harvest,Không publishstate mới,integration
+QA005,R04,P0,Double harvest,save_growing_v2,Hai tab cùng cropUid,"Một reward,tab stale đọc lại",integration
+QA006,R01,P0,Import v1,save_legacy_v1,Migrate rồi compare expected,Giữ coins17 và inventory cũ,unit+integration
+QA007,R01,P0,Import hỏng,invalid,Nhập từng invalid fixture,"Reject,save hiện có giữ nguyên",integration
+QA008,R01,P0,Cold launch offline,production build,Installcache;close;airplane;launch,"Vào garden,save được",manual+browser
+QA009,R01,P1,Update giữa puzzle,production build,Có update;trì hoãn rồi chấp nhận,Chỉ reload sau save;state giữ,browser
+QA010,R07,P1,Chứng cứ9 puzzle,puzzles.json,Replay certificates,9/9 solved theo luật,unit
+QA011,R07,P0,Assist và replay,p_memory_01,Assist;claim;replay,"Main reward1 lần,huy hiệu riêng",integration
+QA012,R05,P1,Decor chắn cửa,cottage map,Đặt bench chắn tương tác,"Reject,không trừ item",unit+browser
+QA013,R08,P0,Adopt Momo,save_new_v2,Nhận nuôi;reload;nhận lại,"Một pet,đúng tên",integration
+QA014,R09,P1,Gift cooldown,neighbor catalog,Gift2 lần trong 6 h,Chỉ lần đầu tiêuhao/điểm,unit
+QA015,R10,P1,Style/alpha,golden references,Xem composite vàloop,"Identity,camera,alphađạt",manual
+QA016,R01,P1,Thiết bị/touch,production build,360 portrait;rotate;text 150%,"Đọc được,không nút bị che",manual
+QA017,R04,P0,Rescue hết vốn,synthetic state,"0 coins,0 seed,0 crop,0 saleableitem","2 hạt cúc,không softlock",unit
+QA018,R06,P2,Livestock/fishing,P2 fixtures,72 hoffline và replay cast,"Cap,feed,reward đúng",integration
+QA019,R11,P1,Asset provenance,asset registry,Duyệt manifestrelease,Khôngfile planned/thiếu thông tin quyền,script+manual
+QA020,R12,P0,Handoff/docs,repo,Mở phiên AI mới từ handoff,Task tiếp có thể thực hiện,manual

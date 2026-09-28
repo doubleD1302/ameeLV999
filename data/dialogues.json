@@ -1,0 +1,80 @@
+[
+  {
+    "id": "intro_letter",
+    "speaker": "grandma",
+    "textKey": "dialogue.intro_letter",
+    "phase": "P0"
+  },
+  {
+    "id": "lily_greeting",
+    "speaker": "lily",
+    "textKey": "dialogue.lily_greeting",
+    "phase": "P0"
+  },
+  {
+    "id": "lily_seed",
+    "speaker": "lily",
+    "textKey": "dialogue.lily_seed",
+    "phase": "P0"
+  },
+  {
+    "id": "lily_wait",
+    "speaker": "lily",
+    "textKey": "dialogue.lily_wait",
+    "phase": "P0"
+  },
+  {
+    "id": "lily_sell",
+    "speaker": "lily",
+    "textKey": "dialogue.lily_sell",
+    "phase": "P0"
+  },
+  {
+    "id": "lily_rescue",
+    "speaker": "lily",
+    "textKey": "dialogue.lily_rescue",
+    "phase": "P0"
+  },
+  {
+    "id": "noah_locked",
+    "speaker": "noah",
+    "textKey": "dialogue.noah_locked",
+    "phase": "P1"
+  },
+  {
+    "id": "noah_repaired",
+    "speaker": "noah",
+    "textKey": "dialogue.noah_repaired",
+    "phase": "P1"
+  },
+  {
+    "id": "arthur_greeting",
+    "speaker": "arthur",
+    "textKey": "dialogue.arthur_greeting",
+    "phase": "P1"
+  },
+  {
+    "id": "pet_arrival",
+    "speaker": "narrator",
+    "textKey": "dialogue.pet_arrival",
+    "phase": "P0"
+  },
+  {
+    "id": "ending_mvp",
+    "speaker": "narrator",
+    "textKey": "dialogue.ending_mvp",
+    "phase": "P1"
+  },
+  {
+    "id": "lily_window",
+    "speaker": "lily",
+    "textKey": "dialogue.lily_window",
+    "phase": "P0"
+  },
+  {
+    "id": "lily_repaired",
+    "speaker": "lily",
+    "textKey": "dialogue.lily_repaired",
+    "phase": "P0"
+  }
+]

@@ -1,0 +1,762 @@
+[
+  {
+    "id": "characters_player_idle_n",
+    "phase": "P0",
+    "action": "idle",
+    "direction": "n",
+    "frameIds": [
+      "characters_player_idle_n_00",
+      "characters_player_idle_n_01",
+      "characters_player_idle_n_02",
+      "characters_player_idle_n_03"
+    ],
+    "frameRate": 4,
+    "loop": true,
+    "anchorX": 0.5,
+    "anchorY": 1,
+    "normalizedFrameWidth": 256,
+    "normalizedFrameHeight": 256
+  },
+  {
+    "id": "characters_player_walk_n",
+    "phase": "P0",
+    "action": "walk",
+    "direction": "n",
+    "frameIds": [
+      "characters_player_walk_n_00",
+      "characters_player_walk_n_01",
+      "characters_player_walk_n_02",
+      "characters_player_walk_n_03",
+      "characters_player_walk_n_04",
+      "characters_player_walk_n_05"
+    ],
+    "frameRate": 8,
+    "loop": true,
+    "anchorX": 0.5,
+    "anchorY": 1,
+    "normalizedFrameWidth": 256,
+    "normalizedFrameHeight": 256
+  },
+  {
+    "id": "characters_player_idle_e",
+    "phase": "P0",
+    "action": "idle",
+    "direction": "e",
+    "frameIds": [
+      "characters_player_idle_e_00",
+      "characters_player_idle_e_01",
+      "characters_player_idle_e_02",
+      "characters_player_idle_e_03"
+    ],
+    "frameRate": 4,
+    "loop": true,
+    "anchorX": 0.5,
+    "anchorY": 1,
+    "normalizedFrameWidth": 256,
+    "normalizedFrameHeight": 256
+  },
+  {
+    "id": "characters_player_walk_e",
+    "phase": "P0",
+    "action": "walk",
+    "direction": "e",
+    "frameIds": [
+      "characters_player_walk_e_00",
+      "characters_player_walk_e_01",
+      "characters_player_walk_e_02",
+      "characters_player_walk_e_03",
+      "characters_player_walk_e_04",
+      "characters_player_walk_e_05"
+    ],
+    "frameRate": 8,
+    "loop": true,
+    "anchorX": 0.5,
+    "anchorY": 1,
+    "normalizedFrameWidth": 256,
+    "normalizedFrameHeight": 256
+  },
+  {
+    "id": "characters_player_idle_s",
+    "phase": "P0",
+    "action": "idle",
+    "direction": "s",
+    "frameIds": [
+      "characters_player_idle_s_00",
+      "characters_player_idle_s_01",
+      "characters_player_idle_s_02",
+      "characters_player_idle_s_03"
+    ],
+    "frameRate": 4,
+    "loop": true,
+    "anchorX": 0.5,
+    "anchorY": 1,
+    "normalizedFrameWidth": 256,
+    "normalizedFrameHeight": 256
+  },
+  {
+    "id": "characters_player_walk_s",
+    "phase": "P0",
+    "action": "walk",
+    "direction": "s",
+    "frameIds": [
+      "characters_player_walk_s_00",
+      "characters_player_walk_s_01",
+      "characters_player_walk_s_02",
+      "characters_player_walk_s_03",
+      "characters_player_walk_s_04",
+      "characters_player_walk_s_05"
+    ],
+    "frameRate": 8,
+    "loop": true,
+    "anchorX": 0.5,
+    "anchorY": 1,
+    "normalizedFrameWidth": 256,
+    "normalizedFrameHeight": 256
+  },
+  {
+    "id": "characters_player_idle_w",
+    "phase": "P0",
+    "action": "idle",
+    "direction": "w",
+    "frameIds": [
+      "characters_player_idle_w_00",
+      "characters_player_idle_w_01",
+      "characters_player_idle_w_02",
+      "characters_player_idle_w_03"
+    ],
+    "frameRate": 4,
+    "loop": true,
+    "anchorX": 0.5,
+    "anchorY": 1,
+    "normalizedFrameWidth": 256,
+    "normalizedFrameHeight": 256
+  },
+  {
+    "id": "characters_player_walk_w",
+    "phase": "P0",
+    "action": "walk",
+    "direction": "w",
+    "frameIds": [
+      "characters_player_walk_w_00",
+      "characters_player_walk_w_01",
+      "characters_player_walk_w_02",
+      "characters_player_walk_w_03",
+      "characters_player_walk_w_04",
+      "characters_player_walk_w_05"
+    ],
+    "frameRate": 8,
+    "loop": true,
+    "anchorX": 0.5,
+    "anchorY": 1,
+    "normalizedFrameWidth": 256,
+    "normalizedFrameHeight": 256
+  },
+  {
+    "id": "npcs_lily_idle_n",
+    "phase": "P0",
+    "action": "idle",
+    "direction": "n",
+    "frameIds": [
+      "npcs_lily_idle_n_00",
+      "npcs_lily_idle_n_01",
+      "npcs_lily_idle_n_02",
+      "npcs_lily_idle_n_03"
+    ],
+    "frameRate": 4,
+    "loop": true,
+    "anchorX": 0.5,
+    "anchorY": 1,
+    "normalizedFrameWidth": 256,
+    "normalizedFrameHeight": 256
+  },
+  {
+    "id": "npcs_lily_walk_n",
+    "phase": "P0",
+    "action": "walk",
+    "direction": "n",
+    "frameIds": [
+      "npcs_lily_walk_n_00",
+      "npcs_lily_walk_n_01",
+      "npcs_lily_walk_n_02",
+      "npcs_lily_walk_n_03",
+      "npcs_lily_walk_n_04",
+      "npcs_lily_walk_n_05"
+    ],
+    "frameRate": 8,
+    "loop": true,
+    "anchorX": 0.5,
+    "anchorY": 1,
+    "normalizedFrameWidth": 256,
+    "normalizedFrameHeight": 256
+  },
+  {
+    "id": "npcs_lily_idle_e",
+    "phase": "P0",
+    "action": "idle",
+    "direction": "e",
+    "frameIds": [
+      "npcs_lily_idle_e_00",
+      "npcs_lily_idle_e_01",
+      "npcs_lily_idle_e_02",
+      "npcs_lily_idle_e_03"
+    ],
+    "frameRate": 4,
+    "loop": true,
+    "anchorX": 0.5,
+    "anchorY": 1,
+    "normalizedFrameWidth": 256,
+    "normalizedFrameHeight": 256
+  },
+  {
+    "id": "npcs_lily_walk_e",
+    "phase": "P0",
+    "action": "walk",
+    "direction": "e",
+    "frameIds": [
+      "npcs_lily_walk_e_00",
+      "npcs_lily_walk_e_01",
+      "npcs_lily_walk_e_02",
+      "npcs_lily_walk_e_03",
+      "npcs_lily_walk_e_04",
+      "npcs_lily_walk_e_05"
+    ],
+    "frameRate": 8,
+    "loop": true,
+    "anchorX": 0.5,
+    "anchorY": 1,
+    "normalizedFrameWidth": 256,
+    "normalizedFrameHeight": 256
+  },
+  {
+    "id": "npcs_lily_idle_s",
+    "phase": "P0",
+    "action": "idle",
+    "direction": "s",
+    "frameIds": [
+      "npcs_lily_idle_s_00",
+      "npcs_lily_idle_s_01",
+      "npcs_lily_idle_s_02",
+      "npcs_lily_idle_s_03"
+    ],
+    "frameRate": 4,
+    "loop": true,
+    "anchorX": 0.5,
+    "anchorY": 1,
+    "normalizedFrameWidth": 256,
+    "normalizedFrameHeight": 256
+  },
+  {
+    "id": "npcs_lily_walk_s",
+    "phase": "P0",
+    "action": "walk",
+    "direction": "s",
+    "frameIds": [
+      "npcs_lily_walk_s_00",
+      "npcs_lily_walk_s_01",
+      "npcs_lily_walk_s_02",
+      "npcs_lily_walk_s_03",
+      "npcs_lily_walk_s_04",
+      "npcs_lily_walk_s_05"
+    ],
+    "frameRate": 8,
+    "loop": true,
+    "anchorX": 0.5,
+    "anchorY": 1,
+    "normalizedFrameWidth": 256,
+    "normalizedFrameHeight": 256
+  },
+  {
+    "id": "npcs_lily_idle_w",
+    "phase": "P0",
+    "action": "idle",
+    "direction": "w",
+    "frameIds": [
+      "npcs_lily_idle_w_00",
+      "npcs_lily_idle_w_01",
+      "npcs_lily_idle_w_02",
+      "npcs_lily_idle_w_03"
+    ],
+    "frameRate": 4,
+    "loop": true,
+    "anchorX": 0.5,
+    "anchorY": 1,
+    "normalizedFrameWidth": 256,
+    "normalizedFrameHeight": 256
+  },
+  {
+    "id": "npcs_lily_walk_w",
+    "phase": "P0",
+    "action": "walk",
+    "direction": "w",
+    "frameIds": [
+      "npcs_lily_walk_w_00",
+      "npcs_lily_walk_w_01",
+      "npcs_lily_walk_w_02",
+      "npcs_lily_walk_w_03",
+      "npcs_lily_walk_w_04",
+      "npcs_lily_walk_w_05"
+    ],
+    "frameRate": 8,
+    "loop": true,
+    "anchorX": 0.5,
+    "anchorY": 1,
+    "normalizedFrameWidth": 256,
+    "normalizedFrameHeight": 256
+  },
+  {
+    "id": "npcs_noah_idle_n",
+    "phase": "P1",
+    "action": "idle",
+    "direction": "n",
+    "frameIds": [
+      "npcs_noah_idle_n_00",
+      "npcs_noah_idle_n_01",
+      "npcs_noah_idle_n_02",
+      "npcs_noah_idle_n_03"
+    ],
+    "frameRate": 4,
+    "loop": true,
+    "anchorX": 0.5,
+    "anchorY": 1,
+    "normalizedFrameWidth": 256,
+    "normalizedFrameHeight": 256
+  },
+  {
+    "id": "npcs_noah_walk_n",
+    "phase": "P1",
+    "action": "walk",
+    "direction": "n",
+    "frameIds": [
+      "npcs_noah_walk_n_00",
+      "npcs_noah_walk_n_01",
+      "npcs_noah_walk_n_02",
+      "npcs_noah_walk_n_03",
+      "npcs_noah_walk_n_04",
+      "npcs_noah_walk_n_05"
+    ],
+    "frameRate": 8,
+    "loop": true,
+    "anchorX": 0.5,
+    "anchorY": 1,
+    "normalizedFrameWidth": 256,
+    "normalizedFrameHeight": 256
+  },
+  {
+    "id": "npcs_noah_idle_e",
+    "phase": "P1",
+    "action": "idle",
+    "direction": "e",
+    "frameIds": [
+      "npcs_noah_idle_e_00",
+      "npcs_noah_idle_e_01",
+      "npcs_noah_idle_e_02",
+      "npcs_noah_idle_e_03"
+    ],
+    "frameRate": 4,
+    "loop": true,
+    "anchorX": 0.5,
+    "anchorY": 1,
+    "normalizedFrameWidth": 256,
+    "normalizedFrameHeight": 256
+  },
+  {
+    "id": "npcs_noah_walk_e",
+    "phase": "P1",
+    "action": "walk",
+    "direction": "e",
+    "frameIds": [
+      "npcs_noah_walk_e_00",
+      "npcs_noah_walk_e_01",
+      "npcs_noah_walk_e_02",
+      "npcs_noah_walk_e_03",
+      "npcs_noah_walk_e_04",
+      "npcs_noah_walk_e_05"
+    ],
+    "frameRate": 8,
+    "loop": true,
+    "anchorX": 0.5,
+    "anchorY": 1,
+    "normalizedFrameWidth": 256,
+    "normalizedFrameHeight": 256
+  },
+  {
+    "id": "npcs_noah_idle_s",
+    "phase": "P1",
+    "action": "idle",
+    "direction": "s",
+    "frameIds": [
+      "npcs_noah_idle_s_00",
+      "npcs_noah_idle_s_01",
+      "npcs_noah_idle_s_02",
+      "npcs_noah_idle_s_03"
+    ],
+    "frameRate": 4,
+    "loop": true,
+    "anchorX": 0.5,
+    "anchorY": 1,
+    "normalizedFrameWidth": 256,
+    "normalizedFrameHeight": 256
+  },
+  {
+    "id": "npcs_noah_walk_s",
+    "phase": "P1",
+    "action": "walk",
+    "direction": "s",
+    "frameIds": [
+      "npcs_noah_walk_s_00",
+      "npcs_noah_walk_s_01",
+      "npcs_noah_walk_s_02",
+      "npcs_noah_walk_s_03",
+      "npcs_noah_walk_s_04",
+      "npcs_noah_walk_s_05"
+    ],
+    "frameRate": 8,
+    "loop": true,
+    "anchorX": 0.5,
+    "anchorY": 1,
+    "normalizedFrameWidth": 256,
+    "normalizedFrameHeight": 256
+  },
+  {
+    "id": "npcs_noah_idle_w",
+    "phase": "P1",
+    "action": "idle",
+    "direction": "w",
+    "frameIds": [
+      "npcs_noah_idle_w_00",
+      "npcs_noah_idle_w_01",
+      "npcs_noah_idle_w_02",
+      "npcs_noah_idle_w_03"
+    ],
+    "frameRate": 4,
+    "loop": true,
+    "anchorX": 0.5,
+    "anchorY": 1,
+    "normalizedFrameWidth": 256,
+    "normalizedFrameHeight": 256
+  },
+  {
+    "id": "npcs_noah_walk_w",
+    "phase": "P1",
+    "action": "walk",
+    "direction": "w",
+    "frameIds": [
+      "npcs_noah_walk_w_00",
+      "npcs_noah_walk_w_01",
+      "npcs_noah_walk_w_02",
+      "npcs_noah_walk_w_03",
+      "npcs_noah_walk_w_04",
+      "npcs_noah_walk_w_05"
+    ],
+    "frameRate": 8,
+    "loop": true,
+    "anchorX": 0.5,
+    "anchorY": 1,
+    "normalizedFrameWidth": 256,
+    "normalizedFrameHeight": 256
+  },
+  {
+    "id": "npcs_arthur_idle_n",
+    "phase": "P1",
+    "action": "idle",
+    "direction": "n",
+    "frameIds": [
+      "npcs_arthur_idle_n_00",
+      "npcs_arthur_idle_n_01",
+      "npcs_arthur_idle_n_02",
+      "npcs_arthur_idle_n_03"
+    ],
+    "frameRate": 4,
+    "loop": true,
+    "anchorX": 0.5,
+    "anchorY": 1,
+    "normalizedFrameWidth": 256,
+    "normalizedFrameHeight": 256
+  },
+  {
+    "id": "npcs_arthur_walk_n",
+    "phase": "P1",
+    "action": "walk",
+    "direction": "n",
+    "frameIds": [
+      "npcs_arthur_walk_n_00",
+      "npcs_arthur_walk_n_01",
+      "npcs_arthur_walk_n_02",
+      "npcs_arthur_walk_n_03",
+      "npcs_arthur_walk_n_04",
+      "npcs_arthur_walk_n_05"
+    ],
+    "frameRate": 8,
+    "loop": true,
+    "anchorX": 0.5,
+    "anchorY": 1,
+    "normalizedFrameWidth": 256,
+    "normalizedFrameHeight": 256
+  },
+  {
+    "id": "npcs_arthur_idle_e",
+    "phase": "P1",
+    "action": "idle",
+    "direction": "e",
+    "frameIds": [
+      "npcs_arthur_idle_e_00",
+      "npcs_arthur_idle_e_01",
+      "npcs_arthur_idle_e_02",
+      "npcs_arthur_idle_e_03"
+    ],
+    "frameRate": 4,
+    "loop": true,
+    "anchorX": 0.5,
+    "anchorY": 1,
+    "normalizedFrameWidth": 256,
+    "normalizedFrameHeight": 256
+  },
+  {
+    "id": "npcs_arthur_walk_e",
+    "phase": "P1",
+    "action": "walk",
+    "direction": "e",
+    "frameIds": [
+      "npcs_arthur_walk_e_00",
+      "npcs_arthur_walk_e_01",
+      "npcs_arthur_walk_e_02",
+      "npcs_arthur_walk_e_03",
+      "npcs_arthur_walk_e_04",
+      "npcs_arthur_walk_e_05"
+    ],
+    "frameRate": 8,
+    "loop": true,
+    "anchorX": 0.5,
+    "anchorY": 1,
+    "normalizedFrameWidth": 256,
+    "normalizedFrameHeight": 256
+  },
+  {
+    "id": "npcs_arthur_idle_s",
+    "phase": "P1",
+    "action": "idle",
+    "direction": "s",
+    "frameIds": [
+      "npcs_arthur_idle_s_00",
+      "npcs_arthur_idle_s_01",
+      "npcs_arthur_idle_s_02",
+      "npcs_arthur_idle_s_03"
+    ],
+    "frameRate": 4,
+    "loop": true,
+    "anchorX": 0.5,
+    "anchorY": 1,
+    "normalizedFrameWidth": 256,
+    "normalizedFrameHeight": 256
+  },
+  {
+    "id": "npcs_arthur_walk_s",
+    "phase": "P1",
+    "action": "walk",
+    "direction": "s",
+    "frameIds": [
+      "npcs_arthur_walk_s_00",
+      "npcs_arthur_walk_s_01",
+      "npcs_arthur_walk_s_02",
+      "npcs_arthur_walk_s_03",
+      "npcs_arthur_walk_s_04",
+      "npcs_arthur_walk_s_05"
+    ],
+    "frameRate": 8,
+    "loop": true,
+    "anchorX": 0.5,
+    "anchorY": 1,
+    "normalizedFrameWidth": 256,
+    "normalizedFrameHeight": 256
+  },
+  {
+    "id": "npcs_arthur_idle_w",
+    "phase": "P1",
+    "action": "idle",
+    "direction": "w",
+    "frameIds": [
+      "npcs_arthur_idle_w_00",
+      "npcs_arthur_idle_w_01",
+      "npcs_arthur_idle_w_02",
+      "npcs_arthur_idle_w_03"
+    ],
+    "frameRate": 4,
+    "loop": true,
+    "anchorX": 0.5,
+    "anchorY": 1,
+    "normalizedFrameWidth": 256,
+    "normalizedFrameHeight": 256
+  },
+  {
+    "id": "npcs_arthur_walk_w",
+    "phase": "P1",
+    "action": "walk",
+    "direction": "w",
+    "frameIds": [
+      "npcs_arthur_walk_w_00",
+      "npcs_arthur_walk_w_01",
+      "npcs_arthur_walk_w_02",
+      "npcs_arthur_walk_w_03",
+      "npcs_arthur_walk_w_04",
+      "npcs_arthur_walk_w_05"
+    ],
+    "frameRate": 8,
+    "loop": true,
+    "anchorX": 0.5,
+    "anchorY": 1,
+    "normalizedFrameWidth": 256,
+    "normalizedFrameHeight": 256
+  },
+  {
+    "id": "pets_momo_idle_n",
+    "phase": "P0",
+    "action": "idle",
+    "direction": "n",
+    "frameIds": [
+      "pets_momo_idle_n_00",
+      "pets_momo_idle_n_01",
+      "pets_momo_idle_n_02",
+      "pets_momo_idle_n_03"
+    ],
+    "frameRate": 4,
+    "loop": true,
+    "anchorX": 0.5,
+    "anchorY": 1,
+    "normalizedFrameWidth": 256,
+    "normalizedFrameHeight": 256
+  },
+  {
+    "id": "pets_momo_walk_n",
+    "phase": "P0",
+    "action": "walk",
+    "direction": "n",
+    "frameIds": [
+      "pets_momo_walk_n_00",
+      "pets_momo_walk_n_01",
+      "pets_momo_walk_n_02",
+      "pets_momo_walk_n_03",
+      "pets_momo_walk_n_04",
+      "pets_momo_walk_n_05"
+    ],
+    "frameRate": 8,
+    "loop": true,
+    "anchorX": 0.5,
+    "anchorY": 1,
+    "normalizedFrameWidth": 256,
+    "normalizedFrameHeight": 256
+  },
+  {
+    "id": "pets_momo_idle_e",
+    "phase": "P0",
+    "action": "idle",
+    "direction": "e",
+    "frameIds": [
+      "pets_momo_idle_e_00",
+      "pets_momo_idle_e_01",
+      "pets_momo_idle_e_02",
+      "pets_momo_idle_e_03"
+    ],
+    "frameRate": 4,
+    "loop": true,
+    "anchorX": 0.5,
+    "anchorY": 1,
+    "normalizedFrameWidth": 256,
+    "normalizedFrameHeight": 256
+  },
+  {
+    "id": "pets_momo_walk_e",
+    "phase": "P0",
+    "action": "walk",
+    "direction": "e",
+    "frameIds": [
+      "pets_momo_walk_e_00",
+      "pets_momo_walk_e_01",
+      "pets_momo_walk_e_02",
+      "pets_momo_walk_e_03",
+      "pets_momo_walk_e_04",
+      "pets_momo_walk_e_05"
+    ],
+    "frameRate": 8,
+    "loop": true,
+    "anchorX": 0.5,
+    "anchorY": 1,
+    "normalizedFrameWidth": 256,
+    "normalizedFrameHeight": 256
+  },
+  {
+    "id": "pets_momo_idle_s",
+    "phase": "P0",
+    "action": "idle",
+    "direction": "s",
+    "frameIds": [
+      "pets_momo_idle_s_00",
+      "pets_momo_idle_s_01",
+      "pets_momo_idle_s_02",
+      "pets_momo_idle_s_03"
+    ],
+    "frameRate": 4,
+    "loop": true,
+    "anchorX": 0.5,
+    "anchorY": 1,
+    "normalizedFrameWidth": 256,
+    "normalizedFrameHeight": 256
+  },
+  {
+    "id": "pets_momo_walk_s",
+    "phase": "P0",
+    "action": "walk",
+    "direction": "s",
+    "frameIds": [
+      "pets_momo_walk_s_00",
+      "pets_momo_walk_s_01",
+      "pets_momo_walk_s_02",
+      "pets_momo_walk_s_03",
+      "pets_momo_walk_s_04",
+      "pets_momo_walk_s_05"
+    ],
+    "frameRate": 8,
+    "loop": true,
+    "anchorX": 0.5,
+    "anchorY": 1,
+    "normalizedFrameWidth": 256,
+    "normalizedFrameHeight": 256
+  },
+  {
+    "id": "pets_momo_idle_w",
+    "phase": "P0",
+    "action": "idle",
+    "direction": "w",
+    "frameIds": [
+      "pets_momo_idle_w_00",
+      "pets_momo_idle_w_01",
+      "pets_momo_idle_w_02",
+      "pets_momo_idle_w_03"
+    ],
+    "frameRate": 4,
+    "loop": true,
+    "anchorX": 0.5,
+    "anchorY": 1,
+    "normalizedFrameWidth": 256,
+    "normalizedFrameHeight": 256
+  },
+  {
+    "id": "pets_momo_walk_w",
+    "phase": "P0",
+    "action": "walk",
+    "direction": "w",
+    "frameIds": [
+      "pets_momo_walk_w_00",
+      "pets_momo_walk_w_01",
+      "pets_momo_walk_w_02",
+      "pets_momo_walk_w_03",
+      "pets_momo_walk_w_04",
+      "pets_momo_walk_w_05"
+    ],
+    "frameRate": 8,
+    "loop": true,
+    "anchorX": 0.5,
+    "anchorY": 1,
+    "normalizedFrameWidth": 256,
+    "normalizedFrameHeight": 256
+  }
+]

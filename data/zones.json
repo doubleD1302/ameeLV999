@@ -1,0 +1,51 @@
+[
+  {
+    "id": "cottage",
+    "name": "Nhà cũ",
+    "phase": "P0",
+    "unlockFlag": null,
+    "status": "defined"
+  },
+  {
+    "id": "greenhouse",
+    "name": "Nhà kính",
+    "phase": "P1",
+    "unlockFlag": "greenhouse_exterior",
+    "status": "defined"
+  },
+  {
+    "id": "pond",
+    "name": "Ao yên",
+    "phase": "P2",
+    "unlockFlag": "pond_restored",
+    "status": "planned"
+  },
+  {
+    "id": "barn",
+    "name": "Chuồng cũ",
+    "phase": "P2",
+    "unlockFlag": "barn_restored",
+    "status": "planned"
+  },
+  {
+    "id": "orchard",
+    "name": "Vườn cây",
+    "phase": "P3",
+    "unlockFlag": "orchard_open",
+    "status": "planned"
+  },
+  {
+    "id": "forest",
+    "name": "Rừng ven nhà",
+    "phase": "P3",
+    "unlockFlag": "forest_open",
+    "status": "planned"
+  },
+  {
+    "id": "hill",
+    "name": "Đồi cối xay",
+    "phase": "P3",
+    "unlockFlag": "hill_open",
+    "status": "planned"
+  }
+]

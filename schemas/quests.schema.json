@@ -1,0 +1,118 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "quests",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "string",
+        "pattern": "^[a-z][a-z0-9_]*$"
+      },
+      "title": {
+        "type": "string",
+        "minLength": 1
+      },
+      "phase": {
+        "type": "string",
+        "enum": [
+          "P0",
+          "P1",
+          "P2",
+          "P3"
+        ]
+      },
+      "prerequisites": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9_]*$"
+        },
+        "uniqueItems": true
+      },
+      "condition": {
+        "type": "object",
+        "properties": {
+          "kind": {
+            "enum": [
+              "clear_count",
+              "planted_count",
+              "harvested_count",
+              "sold_count",
+              "upgrade",
+              "talk_count",
+              "pet_adopted"
+            ]
+          },
+          "target": {
+            "oneOf": [
+              {
+                "type": "string",
+                "pattern": "^[a-z][a-z0-9_]*$"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "count": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "retroactive": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "kind",
+          "target",
+          "count",
+          "retroactive"
+        ],
+        "additionalProperties": false
+      },
+      "rewards": {
+        "type": "object",
+        "properties": {
+          "coins": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "items": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "propertyNames": {
+              "pattern": "^[a-z][a-z0-9_]*$"
+            }
+          },
+          "flags": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^[a-z][a-z0-9_]*$"
+            },
+            "uniqueItems": true
+          }
+        },
+        "required": [
+          "coins",
+          "items",
+          "flags"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "required": [
+      "id",
+      "title",
+      "phase",
+      "prerequisites",
+      "condition",
+      "rewards"
+    ],
+    "additionalProperties": false
+  }
+}

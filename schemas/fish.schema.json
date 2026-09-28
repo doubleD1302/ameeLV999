@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "fish",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "string",
+        "pattern": "^[a-z][a-z0-9_]*$"
+      },
+      "itemId": {
+        "type": "string",
+        "pattern": "^[a-z][a-z0-9_]*$"
+      },
+      "phase": {
+        "type": "string",
+        "enum": [
+          "P0",
+          "P1",
+          "P2",
+          "P3"
+        ]
+      },
+      "zoneId": {
+        "type": "string",
+        "pattern": "^[a-z][a-z0-9_]*$"
+      },
+      "weight": {
+        "type": "integer",
+        "minimum": 1
+      },
+      "requiresSkill": {
+        "type": "boolean"
+      }
+    },
+    "required": [
+      "id",
+      "itemId",
+      "phase",
+      "zoneId",
+      "weight",
+      "requiresSkill"
+    ],
+    "additionalProperties": false
+  }
+}

@@ -1,0 +1,99 @@
+[
+  {
+    "id": "lily",
+    "name": "Lily",
+    "phase": "P0",
+    "role": "seed_shop",
+    "likedItems": [
+      "flower_daisy",
+      "flower_tulip"
+    ],
+    "talkPoints": 2,
+    "normalGiftPoints": 3,
+    "likedGiftPoints": 5
+  },
+  {
+    "id": "noah",
+    "name": "Noah",
+    "phase": "P1",
+    "role": "carpenter",
+    "likedItems": [
+      "flower_marigold"
+    ],
+    "talkPoints": 2,
+    "normalGiftPoints": 3,
+    "likedGiftPoints": 5
+  },
+  {
+    "id": "arthur",
+    "name": "Arthur",
+    "phase": "P1",
+    "role": "fishing_mentor",
+    "likedItems": [
+      "flower_lily"
+    ],
+    "talkPoints": 2,
+    "normalGiftPoints": 3,
+    "likedGiftPoints": 5
+  },
+  {
+    "id": "mina",
+    "name": "Mina",
+    "phase": "P3",
+    "role": "nature_friend",
+    "likedItems": [
+      "flower_daisy"
+    ],
+    "talkPoints": 2,
+    "normalGiftPoints": 3,
+    "likedGiftPoints": 5
+  },
+  {
+    "id": "hana",
+    "name": "Hana",
+    "phase": "P2",
+    "role": "hybrid_mentor",
+    "likedItems": [
+      "flower_rose"
+    ],
+    "talkPoints": 2,
+    "normalGiftPoints": 3,
+    "likedGiftPoints": 5
+  },
+  {
+    "id": "theo",
+    "name": "Theo",
+    "phase": "P2",
+    "role": "barn_keeper",
+    "likedItems": [
+      "flower_marigold"
+    ],
+    "talkPoints": 2,
+    "normalGiftPoints": 3,
+    "likedGiftPoints": 5
+  },
+  {
+    "id": "iris",
+    "name": "Iris",
+    "phase": "P3",
+    "role": "letter_keeper",
+    "likedItems": [
+      "flower_lavender"
+    ],
+    "talkPoints": 2,
+    "normalGiftPoints": 3,
+    "likedGiftPoints": 5
+  },
+  {
+    "id": "june",
+    "name": "June",
+    "phase": "P3",
+    "role": "craft_artist",
+    "likedItems": [
+      "flower_tulip"
+    ],
+    "talkPoints": 2,
+    "normalGiftPoints": 3,
+    "likedGiftPoints": 5
+  }
+]

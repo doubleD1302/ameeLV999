@@ -1,0 +1,70 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "furniture",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "string",
+        "pattern": "^[a-z][a-z0-9_]*$"
+      },
+      "itemId": {
+        "type": "string",
+        "pattern": "^[a-z][a-z0-9_]*$"
+      },
+      "phase": {
+        "type": "string",
+        "enum": [
+          "P0",
+          "P1",
+          "P2",
+          "P3"
+        ]
+      },
+      "width": {
+        "type": "integer",
+        "minimum": 1
+      },
+      "height": {
+        "type": "integer",
+        "minimum": 1
+      },
+      "rotations": {
+        "type": "array",
+        "items": {
+          "enum": [
+            0,
+            90,
+            180,
+            270
+          ]
+        },
+        "minItems": 1,
+        "uniqueItems": true
+      },
+      "layer": {
+        "const": "ground"
+      },
+      "blocksMovement": {
+        "type": "boolean"
+      },
+      "assetId": {
+        "type": "string",
+        "pattern": "^[a-z][a-z0-9_]*$"
+      }
+    },
+    "required": [
+      "id",
+      "itemId",
+      "phase",
+      "width",
+      "height",
+      "rotations",
+      "layer",
+      "blocksMovement",
+      "assetId"
+    ],
+    "additionalProperties": false
+  }
+}

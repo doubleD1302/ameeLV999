@@ -1,0 +1,72 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "upgrades",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "string",
+        "pattern": "^[a-z][a-z0-9_]*$"
+      },
+      "name": {
+        "type": "string",
+        "minLength": 1
+      },
+      "phase": {
+        "type": "string",
+        "enum": [
+          "P0",
+          "P1",
+          "P2",
+          "P3"
+        ]
+      },
+      "prerequisites": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9_]*$"
+        },
+        "uniqueItems": true
+      },
+      "coins": {
+        "type": "integer",
+        "minimum": 0
+      },
+      "items": {
+        "type": "object",
+        "additionalProperties": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "propertyNames": {
+          "pattern": "^[a-z][a-z0-9_]*$"
+        }
+      },
+      "grantsFlags": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9_]*$"
+        },
+        "uniqueItems": true
+      },
+      "unlocksPlots": {
+        "type": "integer",
+        "minimum": 1
+      }
+    },
+    "required": [
+      "id",
+      "name",
+      "phase",
+      "prerequisites",
+      "coins",
+      "items",
+      "grantsFlags",
+      "unlocksPlots"
+    ],
+    "additionalProperties": false
+  }
+}

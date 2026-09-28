@@ -1,0 +1,25 @@
+{
+  "initial": [],
+  "grantedByUpgrades": [
+    "window_repaired",
+    "fence_repaired",
+    "greenhouse_exterior"
+  ],
+  "grantedByQuests": [
+    "journal_01",
+    "chapter_01_done",
+    "journal_02",
+    "chapter_02_done",
+    "mvp_complete"
+  ],
+  "planned": [
+    "greenhouse_active",
+    "pond_restored",
+    "barn_restored",
+    "orchard_open",
+    "forest_open",
+    "hill_open",
+    "workshop_open",
+    "late_story"
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "flowers",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "string",
+        "pattern": "^[a-z][a-z0-9_]*$"
+      },
+      "name": {
+        "type": "string",
+        "minLength": 1
+      },
+      "phase": {
+        "type": "string",
+        "enum": [
+          "P0",
+          "P1",
+          "P2",
+          "P3"
+        ]
+      },
+      "seedItemId": {
+        "type": "string",
+        "pattern": "^[a-z][a-z0-9_]*$"
+      },
+      "harvestItemId": {
+        "type": "string",
+        "pattern": "^[a-z][a-z0-9_]*$"
+      },
+      "durationSeconds": {
+        "type": "integer",
+        "minimum": 1
+      },
+      "yield": {
+        "type": "integer",
+        "minimum": 1
+      },
+      "unlockFlag": {
+        "oneOf": [
+          {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9_]*$"
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "assetPrefix": {
+        "type": "string",
+        "pattern": "^[a-z][a-z0-9_]*$"
+      }
+    },
+    "required": [
+      "id",
+      "name",
+      "phase",
+      "seedItemId",
+      "harvestItemId",
+      "durationSeconds",
+      "yield",
+      "unlockFlag",
+      "assetPrefix"
+    ],
+    "additionalProperties": false
+  }
+}

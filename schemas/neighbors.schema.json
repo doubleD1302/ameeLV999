@@ -1,0 +1,62 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "neighbors",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "string",
+        "pattern": "^[a-z][a-z0-9_]*$"
+      },
+      "name": {
+        "type": "string",
+        "minLength": 1
+      },
+      "phase": {
+        "type": "string",
+        "enum": [
+          "P0",
+          "P1",
+          "P2",
+          "P3"
+        ]
+      },
+      "role": {
+        "type": "string",
+        "pattern": "^[a-z][a-z0-9_]*$"
+      },
+      "likedItems": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9_]*$"
+        },
+        "uniqueItems": true
+      },
+      "talkPoints": {
+        "type": "integer",
+        "minimum": 0
+      },
+      "normalGiftPoints": {
+        "type": "integer",
+        "minimum": 0
+      },
+      "likedGiftPoints": {
+        "type": "integer",
+        "minimum": 0
+      }
+    },
+    "required": [
+      "id",
+      "name",
+      "phase",
+      "role",
+      "likedItems",
+      "talkPoints",
+      "normalGiftPoints",
+      "likedGiftPoints"
+    ],
+    "additionalProperties": false
+  }
+}

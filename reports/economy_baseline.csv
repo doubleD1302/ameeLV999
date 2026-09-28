@@ -1,0 +1,7 @@
+flowerId,minutes,seedCost,sellPrice,yield,profitPerPlotPerHarvest,profitFourPlotsOneBatch,readyAfter8h
+daisy,2.0,4,9,1,5,20,True
+tulip,10.0,10,22,1,12,48,True
+marigold,30.0,18,42,1,24,96,True
+lavender,60.0,30,72,1,42,168,True
+rose,240.0,60,150,1,90,360,True
+lily,480.0,95,240,1,145,580,True

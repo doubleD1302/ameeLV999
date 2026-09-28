@@ -1,0 +1,162 @@
+[
+  {
+    "id": "bench",
+    "itemId": "decor_bench",
+    "phase": "P1",
+    "width": 2,
+    "height": 1,
+    "rotations": [
+      0,
+      90
+    ],
+    "layer": "ground",
+    "blocksMovement": true,
+    "assetId": "decor_bench"
+  },
+  {
+    "id": "flowerpot",
+    "itemId": "decor_flowerpot",
+    "phase": "P1",
+    "width": 1,
+    "height": 1,
+    "rotations": [
+      0
+    ],
+    "layer": "ground",
+    "blocksMovement": true,
+    "assetId": "decor_flowerpot"
+  },
+  {
+    "id": "mailbox",
+    "itemId": "decor_mailbox",
+    "phase": "P1",
+    "width": 1,
+    "height": 1,
+    "rotations": [
+      0
+    ],
+    "layer": "ground",
+    "blocksMovement": true,
+    "assetId": "decor_mailbox"
+  },
+  {
+    "id": "stonepath",
+    "itemId": "decor_stonepath",
+    "phase": "P1",
+    "width": 1,
+    "height": 1,
+    "rotations": [
+      0
+    ],
+    "layer": "ground",
+    "blocksMovement": false,
+    "assetId": "decor_stonepath"
+  },
+  {
+    "id": "birdbath",
+    "itemId": "decor_birdbath",
+    "phase": "P1",
+    "width": 1,
+    "height": 1,
+    "rotations": [
+      0
+    ],
+    "layer": "ground",
+    "blocksMovement": true,
+    "assetId": "decor_birdbath"
+  },
+  {
+    "id": "gardenlamp",
+    "itemId": "decor_gardenlamp",
+    "phase": "P1",
+    "width": 1,
+    "height": 1,
+    "rotations": [
+      0
+    ],
+    "layer": "ground",
+    "blocksMovement": true,
+    "assetId": "decor_gardenlamp"
+  },
+  {
+    "id": "smalltable",
+    "itemId": "decor_smalltable",
+    "phase": "P1",
+    "width": 2,
+    "height": 1,
+    "rotations": [
+      0,
+      90
+    ],
+    "layer": "ground",
+    "blocksMovement": true,
+    "assetId": "decor_smalltable"
+  },
+  {
+    "id": "chair",
+    "itemId": "decor_chair",
+    "phase": "P1",
+    "width": 1,
+    "height": 1,
+    "rotations": [
+      0
+    ],
+    "layer": "ground",
+    "blocksMovement": true,
+    "assetId": "decor_chair"
+  },
+  {
+    "id": "picnicrug",
+    "itemId": "decor_picnicrug",
+    "phase": "P1",
+    "width": 2,
+    "height": 2,
+    "rotations": [
+      0
+    ],
+    "layer": "ground",
+    "blocksMovement": false,
+    "assetId": "decor_picnicrug"
+  },
+  {
+    "id": "trellis",
+    "itemId": "decor_trellis",
+    "phase": "P1",
+    "width": 2,
+    "height": 1,
+    "rotations": [
+      0,
+      90
+    ],
+    "layer": "ground",
+    "blocksMovement": true,
+    "assetId": "decor_trellis"
+  },
+  {
+    "id": "fence",
+    "itemId": "decor_fence",
+    "phase": "P1",
+    "width": 2,
+    "height": 1,
+    "rotations": [
+      0,
+      90
+    ],
+    "layer": "ground",
+    "blocksMovement": true,
+    "assetId": "decor_fence"
+  },
+  {
+    "id": "sign",
+    "itemId": "decor_sign",
+    "phase": "P1",
+    "width": 1,
+    "height": 1,
+    "rotations": [
+      0
+    ],
+    "layer": "ground",
+    "blocksMovement": true,
+    "assetId": "decor_sign"
+  }
+]

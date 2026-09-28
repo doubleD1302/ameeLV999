@@ -1,0 +1,41 @@
+id,phase,title,depends_on,spec,acceptance,status
+T001,P0,Khởi tạo TypeScript/Vite/Phaser,,docs/10_tech/TECH_STACK.md,Scene input/resize chạy; pin versions; build/typecheck đạt,done
+T002,P0,Load và validate content,T001,docs/10_tech/DATA_CONTRACTS.md,Schema và reference checks; invalid content bị chặn,todo
+T003,P0,Domain commands và store,T002,docs/10_tech/COMMANDS_EVENTS.md,"Pure reducer, typed errors, coins/item invariants",todo
+T004,P0,Save transaction và migration,T003,docs/10_tech/SAVE_SYSTEM.md,"IDB atomic, v1->v2 fixture đúng, không reset corrupt save",todo
+T005,P0,Clock và resume offline,T004,docs/10_tech/TIME_AND_IDLE.md,Boundary/cap/negative/double resume đạt,todo
+T006,P0,World scene và input,T002,docs/02_world/COTTAGE_ZONE.md,Map24 x18; portal/plot hit đúng; mobile resize,todo
+T007,P0,Trồng và thu hoạch,T003|T005|T006,docs/04_systems/FLOWERS.md,Trồng/chín/harvest reload đúng một lần,todo
+T008,P0,Shop và rescue,T007,docs/04_systems/SHOP_ECONOMY.md,"Mua/bán atomic, hết vốn có đường cứu",todo
+T009,P0,Dọn và sửa cửa sổ,T008,docs/04_systems/RESTORATION.md,Clear một lần; upgrade đổi ảnh và persist,todo
+T010,P0,Memory và reward ledger,T004|T006,docs/05_puzzles/MEMORY.md,Hai levelP0 solve/assist/replay không dup,todo
+T011,P0,Quest và journal,T009|T010,docs/04_systems/QUESTS_REWARDS.md,Retroactive progress và claim idempotent,todo
+T012,P0,Lily và Momo,T011,docs/04_systems/PETS.md,"Thoại/adopt/idle/follow, không chặn path",todo
+T013,P0,Export/import/recovery,T004,docs/10_tech/ERROR_RECOVERY.md,Valid import thay slot sau preview; invalid giữ save,todo
+T014,P0,PWA offline/update,T005|T013,docs/10_tech/OFFLINE_PWA.md,Production cold launch offline; không auto reload,todo
+T015,P0,Cổng chất lượng P0,T012|T014,docs/12_qa/TEST_PLAN.md,Vòng trồng-bán-sửa-close-offline-load đạt; không có lỗi S0/S1,todo
+T016,P1,Engine pipe rotation,T015,docs/05_puzzles/PIPE_ROTATION.md,3 level verifier đúng leak/target/locked,todo
+T017,P1,Engine sliding,T015,docs/05_puzzles/SLIDING.md,"3 level và hint từ state hiện tại, resume đúng",todo
+T018,P1,Decor placement,T015,docs/04_systems/DECORATION.md,"12 decor, rotate/store, không chặn lối",todo
+T019,P1,Noah/Arthur và quan hệ,T015,docs/04_systems/NEIGHBORS_RELATIONSHIPS.md,Gift/talk cooldown/points persist,todo
+T020,P1,Nội dung và unlock P1,T016|T017|T018|T019,docs/01_design/PROGRESSION_UNLOCKS.md,6 hoa/8 quest/3 upgrade/2 map đúng data,todo
+T021,P1,Audio lifecycle,T015,docs/09_audio/AUDIO_BIBLE.md,"Cue đúng commit, mute persist, resume không chồng",todo
+T022,P1,Golden art pilot,T001,docs/07_art/STYLE_LOCK_AND_REFERENCES.md,Bộ reference được xem và duyệt bằng tiêu chí,todo
+T023,P1,Batch art và tích hợp,T022|T020,docs/10_tech/ASSET_PIPELINE.md,"Approved registry, file/hash/alpha/frame checks",todo
+T024,P1,Responsive/accessibility,T020|T021,docs/08_ui/ACCESSIBILITY.md,"Keyboard, touch, text 150%, reduced motion",todo
+T025,P1,Build và QA bản MVP,T023|T024,docs/13_production/RELEASE_RUNBOOK.md,Offline/update/save/real device và budgets; report,todo
+T026,P2,Greenhouse và lai hoa,T025,docs/04_systems/HYBRIDS.md,"Job RNG stable, recipe guarantee, migration",todo
+T027,P2,Ao và câu cá,T026,docs/04_systems/FISHING.md,"Fishing assist, cast save và reward một lần",todo
+T028,P2,Chuồng và chăn nuôi,T027,docs/04_systems/LIVESTOCK.md,Feed/storage/offline cap đúng,todo
+T029,P2,Crafting/workshop,T025,docs/04_systems/CRAFTING.md,"Input prepaid, queue/claim/cancel tested",todo
+T030,P2,Thú cưng mở rộng,T025,docs/04_systems/PETS.md,"4 pet, 1 follow, bonus cap nếu bật",todo
+T031,P2,Water flow/logic/light,T026,docs/05_puzzles/LEVEL_AUTHORING.md,"3 engine mới có solver, hint và save tests",todo
+T032,P2,Cổng chất lượng P2,T028|T029|T030|T031,docs/12_qa/TEST_PLAN.md,RegressionP1 và migrationP2 đạt,todo
+T033,P3,Orchard và cooking,T032,docs/04_systems/ORCHARD_FARMING.md,"Perennial timer, craft reuse, nguồn thay thế",todo
+T034,P3,Forest/foraging,T032,docs/04_systems/EXPLORATION_FORAGING.md,Resource renewable không reroll/reward dup,todo
+T035,P3,Deduction/gear/hidden/mystery,T034,docs/05_puzzles/LEVEL_AUTHORING.md,"Đủ10 engine, solver và manual clue review",todo
+T036,P3,Mùa/sự kiện/NPC thêm,T033|T034,docs/04_systems/COLLECTIONS_EVENTS.md,"Không gây FOMO,8 NPC, replay không reward",todo
+T037,P3,Ending và journal,T035|T036,docs/06_story/CHAPTERS.md,"8 chương, before/after, tiếp tục sandbox",todo
+T038,P3,Windmill automation,T037,docs/04_systems/AUTOMATION.md,Cap và finite queues; không tăng vô hạn,todo
+T039,P3,Cá nhân hóa quà,T037,docs/01_design/PERSONALIZATION.md,"Tắt/bật hợp lệ, không placeholder/bịa kỷ niệm",todo
+T040,P3,QA toàn bộ và phát hành,T038|T039,docs/13_production/RELEASE_RUNBOOK.md,Build/report/assets/save/offline đầy đủ theo scope,todo

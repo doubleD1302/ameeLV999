@@ -1,0 +1,72 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "recipes",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "string",
+        "pattern": "^[a-z][a-z0-9_]*$"
+      },
+      "name": {
+        "type": "string",
+        "minLength": 1
+      },
+      "phase": {
+        "type": "string",
+        "enum": [
+          "P0",
+          "P1",
+          "P2",
+          "P3"
+        ]
+      },
+      "unlockFlag": {
+        "oneOf": [
+          {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9_]*$"
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "inputs": {
+        "type": "object",
+        "additionalProperties": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "propertyNames": {
+          "pattern": "^[a-z][a-z0-9_]*$"
+        }
+      },
+      "outputs": {
+        "type": "object",
+        "additionalProperties": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "propertyNames": {
+          "pattern": "^[a-z][a-z0-9_]*$"
+        }
+      },
+      "durationSeconds": {
+        "type": "integer",
+        "minimum": 1
+      }
+    },
+    "required": [
+      "id",
+      "name",
+      "phase",
+      "unlockFlag",
+      "inputs",
+      "outputs",
+      "durationSeconds"
+    ],
+    "additionalProperties": false
+  }
+}

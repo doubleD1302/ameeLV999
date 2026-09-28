@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "lastSeenMs": 1000000,
+  "elapsedMs": 300000,
+  "coins": 17,
+  "inventory": {
+    "seed_tulip": 1
+  }
+}

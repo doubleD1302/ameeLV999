@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "pets",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "string",
+        "pattern": "^[a-z][a-z0-9_]*$"
+      },
+      "name": {
+        "type": "string",
+        "minLength": 1
+      },
+      "species": {
+        "enum": [
+          "cat",
+          "dog",
+          "rabbit",
+          "duck"
+        ]
+      },
+      "phase": {
+        "type": "string",
+        "enum": [
+          "P0",
+          "P1",
+          "P2",
+          "P3"
+        ]
+      },
+      "assetPrefix": {
+        "type": "string",
+        "pattern": "^[a-z][a-z0-9_]*$"
+      },
+      "bonusEnabled": {
+        "type": "boolean"
+      },
+      "unlockFlag": {
+        "type": "string",
+        "pattern": "^[a-z][a-z0-9_]*$"
+      }
+    },
+    "required": [
+      "id",
+      "name",
+      "species",
+      "phase",
+      "assetPrefix",
+      "bonusEnabled",
+      "unlockFlag"
+    ],
+    "additionalProperties": false
+  }
+}

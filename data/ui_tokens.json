@@ -1,0 +1,21 @@
+{
+  "colors": {
+    "paper": "#FFF9EE",
+    "ink": "#2D3A32",
+    "ink_muted": "#526158",
+    "sage": "#A9C5A0",
+    "forest": "#416B54",
+    "mint": "#D9E8D1",
+    "rose": "#F2B7BF",
+    "sun": "#F5D58A",
+    "sky": "#BFDCE5",
+    "earth": "#96755B",
+    "dark_bg": "#1C2720",
+    "error": "#A53B39"
+  },
+  "fontSizeBody": 16,
+  "touchTarget": 48,
+  "spacingUnit": 8,
+  "panelRadius": 16,
+  "maxDevicePixelRatio": 2
+}

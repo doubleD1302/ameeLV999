@@ -1,0 +1,26 @@
+[
+  {
+    "id": "minnow",
+    "itemId": "fish_minnow",
+    "phase": "P2",
+    "zoneId": "pond",
+    "weight": 60,
+    "requiresSkill": false
+  },
+  {
+    "id": "carp",
+    "itemId": "fish_carp",
+    "phase": "P2",
+    "zoneId": "pond",
+    "weight": 30,
+    "requiresSkill": false
+  },
+  {
+    "id": "koi",
+    "itemId": "fish_koi",
+    "phase": "P2",
+    "zoneId": "pond",
+    "weight": 10,
+    "requiresSkill": false
+  }
+]

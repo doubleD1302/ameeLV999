@@ -1,0 +1,522 @@
+[
+  {
+    "id": "p_memory_01",
+    "engine": "memory",
+    "engineVersion": 1,
+    "phase": "P0",
+    "tier": 1,
+    "seed": 101,
+    "instructionsKey": "puzzle.memory",
+    "rewardCoins": 20,
+    "board": {
+      "columns": 4,
+      "deck": [
+        "daisy",
+        "lily",
+        "rose",
+        "daisy",
+        "lily",
+        "tulip",
+        "rose",
+        "tulip"
+      ]
+    },
+    "solutionCertificate": [
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        5,
+        7
+      ]
+    ],
+    "hints": [
+      "Tìm hai hình giống nhau.",
+      "Nhớ vị trí một hình bạn vừa thấy.",
+      "Mình có thể chỉ một cặp còn lại."
+    ]
+  },
+  {
+    "id": "p_memory_02",
+    "engine": "memory",
+    "engineVersion": 1,
+    "phase": "P0",
+    "tier": 2,
+    "seed": 102,
+    "instructionsKey": "puzzle.memory",
+    "rewardCoins": 30,
+    "board": {
+      "columns": 4,
+      "deck": [
+        "daisy",
+        "lily",
+        "tulip",
+        "daisy",
+        "lily",
+        "lavender",
+        "rose",
+        "marigold",
+        "rose",
+        "lavender",
+        "marigold",
+        "tulip"
+      ]
+    },
+    "solutionCertificate": [
+      [
+        0,
+        3
+      ],
+      [
+        5,
+        9
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        7,
+        10
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        2,
+        11
+      ]
+    ],
+    "hints": [
+      "Tìm hai hình giống nhau.",
+      "Nhớ vị trí một hình bạn vừa thấy.",
+      "Mình có thể chỉ một cặp còn lại."
+    ]
+  },
+  {
+    "id": "p_memory_03",
+    "engine": "memory",
+    "engineVersion": 1,
+    "phase": "P1",
+    "tier": 3,
+    "seed": 103,
+    "instructionsKey": "puzzle.memory",
+    "rewardCoins": 40,
+    "board": {
+      "columns": 4,
+      "deck": [
+        "lavender",
+        "rose",
+        "rose",
+        "lily",
+        "daisy",
+        "tulip",
+        "marigold",
+        "lily",
+        "lavender",
+        "daisy",
+        "tulip",
+        "leaf",
+        "leaf",
+        "marigold",
+        "sun",
+        "sun"
+      ]
+    },
+    "solutionCertificate": [
+      [
+        4,
+        9
+      ],
+      [
+        0,
+        8
+      ],
+      [
+        11,
+        12
+      ],
+      [
+        3,
+        7
+      ],
+      [
+        6,
+        13
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        14,
+        15
+      ],
+      [
+        5,
+        10
+      ]
+    ],
+    "hints": [
+      "Tìm hai hình giống nhau.",
+      "Nhớ vị trí một hình bạn vừa thấy.",
+      "Mình có thể chỉ một cặp còn lại."
+    ]
+  },
+  {
+    "id": "p_sliding_01",
+    "engine": "sliding",
+    "engineVersion": 1,
+    "phase": "P1",
+    "tier": 1,
+    "seed": 201,
+    "instructionsKey": "puzzle.sliding",
+    "rewardCoins": 20,
+    "board": {
+      "size": 3,
+      "tiles": [
+        0,
+        1,
+        3,
+        4,
+        2,
+        5,
+        7,
+        8,
+        6
+      ]
+    },
+    "solutionCertificate": [
+      "R",
+      "D",
+      "R",
+      "D"
+    ],
+    "hints": [
+      "Chỉ mảnh cạnh ô trống mới trượt được.",
+      "Thử ổn định hàng trên trước.",
+      "Xem một bước từ vị trí hiện tại."
+    ]
+  },
+  {
+    "id": "p_sliding_02",
+    "engine": "sliding",
+    "engineVersion": 1,
+    "phase": "P1",
+    "tier": 2,
+    "seed": 202,
+    "instructionsKey": "puzzle.sliding",
+    "rewardCoins": 30,
+    "board": {
+      "size": 3,
+      "tiles": [
+        0,
+        3,
+        5,
+        1,
+        4,
+        2,
+        7,
+        8,
+        6
+      ]
+    },
+    "solutionCertificate": [
+      "D",
+      "R",
+      "R",
+      "U",
+      "L",
+      "D",
+      "R",
+      "D"
+    ],
+    "hints": [
+      "Chỉ mảnh cạnh ô trống mới trượt được.",
+      "Thử ổn định hàng trên trước.",
+      "Xem một bước từ vị trí hiện tại."
+    ]
+  },
+  {
+    "id": "p_sliding_03",
+    "engine": "sliding",
+    "engineVersion": 1,
+    "phase": "P1",
+    "tier": 3,
+    "seed": 203,
+    "instructionsKey": "puzzle.sliding",
+    "rewardCoins": 40,
+    "board": {
+      "size": 3,
+      "tiles": [
+        3,
+        4,
+        0,
+        1,
+        2,
+        5,
+        7,
+        8,
+        6
+      ]
+    },
+    "solutionCertificate": [
+      "D",
+      "L",
+      "U",
+      "L",
+      "D",
+      "R",
+      "R",
+      "U",
+      "L",
+      "D",
+      "R",
+      "D"
+    ],
+    "hints": [
+      "Chỉ mảnh cạnh ô trống mới trượt được.",
+      "Thử ổn định hàng trên trước.",
+      "Xem một bước từ vị trí hiện tại."
+    ]
+  },
+  {
+    "id": "p_pipe_01",
+    "engine": "pipe_rotation",
+    "engineVersion": 1,
+    "phase": "P1",
+    "tier": 1,
+    "seed": 301,
+    "instructionsKey": "puzzle.pipe_rotation",
+    "rewardCoins": 20,
+    "board": {
+      "rows": 3,
+      "cols": 3,
+      "basePorts": [
+        5,
+        1,
+        1,
+        3,
+        5,
+        3,
+        1,
+        1,
+        5
+      ],
+      "rotations": [
+        1,
+        0,
+        0,
+        1,
+        2,
+        3,
+        0,
+        0,
+        1
+      ],
+      "locked": [],
+      "source": {
+        "index": 0,
+        "externalPort": 1
+      },
+      "target": {
+        "index": 8,
+        "externalPort": 4
+      }
+    },
+    "solutionCertificate": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      2,
+      0,
+      0,
+      0
+    ],
+    "hints": [
+      "Nước cần đi từ nguồn đến hoa.",
+      "Chỗ nối phải khớp cả hai phía.",
+      "Kiểm tra điểm rò gần nguồn trước."
+    ]
+  },
+  {
+    "id": "p_pipe_02",
+    "engine": "pipe_rotation",
+    "engineVersion": 1,
+    "phase": "P1",
+    "tier": 2,
+    "seed": 302,
+    "instructionsKey": "puzzle.pipe_rotation",
+    "rewardCoins": 30,
+    "board": {
+      "rows": 4,
+      "cols": 4,
+      "basePorts": [
+        5,
+        1,
+        1,
+        1,
+        3,
+        5,
+        3,
+        1,
+        1,
+        1,
+        5,
+        1,
+        1,
+        1,
+        3,
+        3
+      ],
+      "rotations": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        2,
+        3,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        3
+      ],
+      "locked": [
+        0
+      ],
+      "source": {
+        "index": 0,
+        "externalPort": 1
+      },
+      "target": {
+        "index": 15,
+        "externalPort": 4
+      }
+    },
+    "solutionCertificate": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2
+    ],
+    "hints": [
+      "Nước cần đi từ nguồn đến hoa.",
+      "Chỗ nối phải khớp cả hai phía.",
+      "Kiểm tra điểm rò gần nguồn trước."
+    ]
+  },
+  {
+    "id": "p_pipe_03",
+    "engine": "pipe_rotation",
+    "engineVersion": 1,
+    "phase": "P1",
+    "tier": 3,
+    "seed": 303,
+    "instructionsKey": "puzzle.pipe_rotation",
+    "rewardCoins": 40,
+    "board": {
+      "rows": 4,
+      "cols": 4,
+      "basePorts": [
+        3,
+        3,
+        1,
+        1,
+        3,
+        3,
+        3,
+        3,
+        3,
+        5,
+        3,
+        5,
+        1,
+        1,
+        1,
+        5
+      ],
+      "rotations": [
+        0,
+        3,
+        0,
+        0,
+        2,
+        0,
+        2,
+        3,
+        1,
+        2,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "locked": [
+        0
+      ],
+      "source": {
+        "index": 0,
+        "externalPort": 1
+      },
+      "target": {
+        "index": 15,
+        "externalPort": 4
+      }
+    },
+    "solutionCertificate": [
+      0,
+      2,
+      0,
+      0,
+      1,
+      3,
+      1,
+      2,
+      0,
+      1,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "hints": [
+      "Nước cần đi từ nguồn đến hoa.",
+      "Chỗ nối phải khớp cả hai phía.",
+      "Kiểm tra điểm rò gần nguồn trước."
+    ]
+  }
+]

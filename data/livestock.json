@@ -1,0 +1,32 @@
+[
+  {
+    "id": "chicken",
+    "name": "Gà",
+    "phase": "P2",
+    "productItemId": "egg",
+    "feedItemId": "feed",
+    "cycleSeconds": 14400,
+    "storageCap": 3,
+    "feedCapacity": 3
+  },
+  {
+    "id": "sheep",
+    "name": "Cừu",
+    "phase": "P2",
+    "productItemId": "wool",
+    "feedItemId": "feed",
+    "cycleSeconds": 21600,
+    "storageCap": 3,
+    "feedCapacity": 3
+  },
+  {
+    "id": "cow",
+    "name": "Bò",
+    "phase": "P2",
+    "productItemId": "milk",
+    "feedItemId": "feed",
+    "cycleSeconds": 28800,
+    "storageCap": 3,
+    "feedCapacity": 3
+  }
+]

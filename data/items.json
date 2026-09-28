@@ -1,0 +1,308 @@
+[
+  {
+    "id": "seed_daisy",
+    "name": "Hạt cúc trắng",
+    "kind": "seed",
+    "phase": "P0",
+    "buyPrice": 4,
+    "sellPrice": 0,
+    "sellable": false
+  },
+  {
+    "id": "flower_daisy",
+    "name": "Cúc trắng",
+    "kind": "flower",
+    "phase": "P0",
+    "buyPrice": null,
+    "sellPrice": 9,
+    "sellable": true
+  },
+  {
+    "id": "seed_tulip",
+    "name": "Hạt tulip hồng",
+    "kind": "seed",
+    "phase": "P0",
+    "buyPrice": 10,
+    "sellPrice": 0,
+    "sellable": false
+  },
+  {
+    "id": "flower_tulip",
+    "name": "Tulip hồng",
+    "kind": "flower",
+    "phase": "P0",
+    "buyPrice": null,
+    "sellPrice": 22,
+    "sellable": true
+  },
+  {
+    "id": "seed_marigold",
+    "name": "Hạt cúc vạn thọ",
+    "kind": "seed",
+    "phase": "P0",
+    "buyPrice": 18,
+    "sellPrice": 0,
+    "sellable": false
+  },
+  {
+    "id": "flower_marigold",
+    "name": "Cúc vạn thọ",
+    "kind": "flower",
+    "phase": "P0",
+    "buyPrice": null,
+    "sellPrice": 42,
+    "sellable": true
+  },
+  {
+    "id": "seed_lavender",
+    "name": "Hạt oải hương",
+    "kind": "seed",
+    "phase": "P1",
+    "buyPrice": 30,
+    "sellPrice": 0,
+    "sellable": false
+  },
+  {
+    "id": "flower_lavender",
+    "name": "Oải hương",
+    "kind": "flower",
+    "phase": "P1",
+    "buyPrice": null,
+    "sellPrice": 72,
+    "sellable": true
+  },
+  {
+    "id": "seed_rose",
+    "name": "Hạt hồng vườn",
+    "kind": "seed",
+    "phase": "P1",
+    "buyPrice": 60,
+    "sellPrice": 0,
+    "sellable": false
+  },
+  {
+    "id": "flower_rose",
+    "name": "Hồng vườn",
+    "kind": "flower",
+    "phase": "P1",
+    "buyPrice": null,
+    "sellPrice": 150,
+    "sellable": true
+  },
+  {
+    "id": "seed_lily",
+    "name": "Hạt bách hợp",
+    "kind": "seed",
+    "phase": "P1",
+    "buyPrice": 95,
+    "sellPrice": 0,
+    "sellable": false
+  },
+  {
+    "id": "flower_lily",
+    "name": "Bách hợp",
+    "kind": "flower",
+    "phase": "P1",
+    "buyPrice": null,
+    "sellPrice": 240,
+    "sellable": true
+  },
+  {
+    "id": "wood",
+    "name": "Gỗ",
+    "kind": "material",
+    "phase": "P0",
+    "buyPrice": null,
+    "sellPrice": 0,
+    "sellable": false
+  },
+  {
+    "id": "stone",
+    "name": "Đá",
+    "kind": "material",
+    "phase": "P0",
+    "buyPrice": null,
+    "sellPrice": 0,
+    "sellable": false
+  },
+  {
+    "id": "decor_bench",
+    "name": "Ghế vườn",
+    "kind": "decor",
+    "phase": "P1",
+    "buyPrice": 45,
+    "sellPrice": 0,
+    "sellable": false
+  },
+  {
+    "id": "decor_flowerpot",
+    "name": "Chậu hoa",
+    "kind": "decor",
+    "phase": "P1",
+    "buyPrice": 20,
+    "sellPrice": 0,
+    "sellable": false
+  },
+  {
+    "id": "decor_mailbox",
+    "name": "Hòm thư",
+    "kind": "decor",
+    "phase": "P1",
+    "buyPrice": 30,
+    "sellPrice": 0,
+    "sellable": false
+  },
+  {
+    "id": "decor_stonepath",
+    "name": "Đá lát đường",
+    "kind": "decor",
+    "phase": "P1",
+    "buyPrice": 15,
+    "sellPrice": 0,
+    "sellable": false
+  },
+  {
+    "id": "decor_birdbath",
+    "name": "Chậu tắm chim",
+    "kind": "decor",
+    "phase": "P1",
+    "buyPrice": 60,
+    "sellPrice": 0,
+    "sellable": false
+  },
+  {
+    "id": "decor_gardenlamp",
+    "name": "Đèn vườn",
+    "kind": "decor",
+    "phase": "P1",
+    "buyPrice": 40,
+    "sellPrice": 0,
+    "sellable": false
+  },
+  {
+    "id": "decor_smalltable",
+    "name": "Bàn nhỏ",
+    "kind": "decor",
+    "phase": "P1",
+    "buyPrice": 50,
+    "sellPrice": 0,
+    "sellable": false
+  },
+  {
+    "id": "decor_chair",
+    "name": "Ghế đơn",
+    "kind": "decor",
+    "phase": "P1",
+    "buyPrice": 25,
+    "sellPrice": 0,
+    "sellable": false
+  },
+  {
+    "id": "decor_picnicrug",
+    "name": "Thảm dã ngoại",
+    "kind": "decor",
+    "phase": "P1",
+    "buyPrice": 35,
+    "sellPrice": 0,
+    "sellable": false
+  },
+  {
+    "id": "decor_trellis",
+    "name": "Giàn leo",
+    "kind": "decor",
+    "phase": "P1",
+    "buyPrice": 70,
+    "sellPrice": 0,
+    "sellable": false
+  },
+  {
+    "id": "decor_fence",
+    "name": "Đoạn hàng rào",
+    "kind": "decor",
+    "phase": "P1",
+    "buyPrice": 30,
+    "sellPrice": 0,
+    "sellable": false
+  },
+  {
+    "id": "decor_sign",
+    "name": "Bảng tên vườn",
+    "kind": "decor",
+    "phase": "P1",
+    "buyPrice": 25,
+    "sellPrice": 0,
+    "sellable": false
+  },
+  {
+    "id": "bouquet_simple",
+    "name": "Bó hoa giản dị",
+    "kind": "product",
+    "phase": "P2",
+    "buyPrice": null,
+    "sellPrice": 58,
+    "sellable": true
+  },
+  {
+    "id": "fish_minnow",
+    "name": "Cá nhỏ",
+    "kind": "fish",
+    "phase": "P2",
+    "buyPrice": null,
+    "sellPrice": 12,
+    "sellable": true
+  },
+  {
+    "id": "fish_carp",
+    "name": "Cá chép",
+    "kind": "fish",
+    "phase": "P2",
+    "buyPrice": null,
+    "sellPrice": 35,
+    "sellable": true
+  },
+  {
+    "id": "fish_koi",
+    "name": "Cá koi",
+    "kind": "fish",
+    "phase": "P2",
+    "buyPrice": null,
+    "sellPrice": 70,
+    "sellable": true
+  },
+  {
+    "id": "egg",
+    "name": "Trứng",
+    "kind": "product",
+    "phase": "P2",
+    "buyPrice": null,
+    "sellPrice": 14,
+    "sellable": true
+  },
+  {
+    "id": "milk",
+    "name": "Sữa",
+    "kind": "product",
+    "phase": "P2",
+    "buyPrice": null,
+    "sellPrice": 28,
+    "sellable": true
+  },
+  {
+    "id": "wool",
+    "name": "Lông cừu",
+    "kind": "product",
+    "phase": "P2",
+    "buyPrice": null,
+    "sellPrice": 22,
+    "sellable": true
+  },
+  {
+    "id": "feed",
+    "name": "Thức ăn chuồng",
+    "kind": "food",
+    "phase": "P2",
+    "buyPrice": 3,
+    "sellPrice": 0,
+    "sellable": false
+  }
+]

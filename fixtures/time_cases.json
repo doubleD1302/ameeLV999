@@ -1,0 +1,44 @@
+[
+  {
+    "id": "zero",
+    "savedAtWallMs": 1000000,
+    "nowWallMs": 1000000,
+    "expectedCreditMs": 0
+  },
+  {
+    "id": "negative",
+    "savedAtWallMs": 1000000,
+    "nowWallMs": 900000,
+    "expectedCreditMs": 0
+  },
+  {
+    "id": "one_second",
+    "savedAtWallMs": 1000000,
+    "nowWallMs": 1001000,
+    "expectedCreditMs": 1000
+  },
+  {
+    "id": "before_daisy_ready",
+    "savedAtWallMs": 1000000,
+    "nowWallMs": 1119999,
+    "expectedCreditMs": 119999
+  },
+  {
+    "id": "daisy_ready",
+    "savedAtWallMs": 1000000,
+    "nowWallMs": 1120000,
+    "expectedCreditMs": 120000
+  },
+  {
+    "id": "cap_exact",
+    "savedAtWallMs": 1000000,
+    "nowWallMs": 29800000,
+    "expectedCreditMs": 28800000
+  },
+  {
+    "id": "three_days",
+    "savedAtWallMs": 1000000,
+    "nowWallMs": 260200000,
+    "expectedCreditMs": 28800000
+  }
+]
